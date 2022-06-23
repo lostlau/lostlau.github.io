@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lostlau.github.io</id>
+    <title>Lost Blog</title>
+    <updated>2022-06-23T16:27:12.129Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lostlau.github.io"/>
+    <link rel="self" href="https://lostlau.github.io/atom.xml"/>
+    <subtitle>这里是Lost@刘蔚南的个人博客，与你一起发现更大的世界。</subtitle>
+    <logo>https://lostlau.github.io/images/avatar.png</logo>
+    <icon>https://lostlau.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Lost Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[PySpark学习（三） - DataFrame和SQL]]></title>
+        <id>https://lostlau.github.io/post/pyspark_tuto3/</id>
+        <link href="https://lostlau.github.io/post/pyspark_tuto3/">
+        </link>
+        <updated>2022-06-23T16:19:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>pyspark学习的第三篇会介绍DataFrame和其相关的操作运用。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>pyspark学习的第三篇会介绍DataFrame和其相关的操作运用。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PMP学习&考试 - 引子]]></title>
+        <id>https://lostlau.github.io/post/pmp_intro/</id>
+        <link href="https://lostlau.github.io/post/pmp_intro/">
+        </link>
+        <updated>2022-06-22T03:05:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>该系列博客将记录PMP的学习心得。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>该系列博客将记录PMP的学习心得。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PySpark学习（二） - RDD与共享变量]]></title>
+        <id>https://lostlau.github.io/post/pyspark_tuto2/</id>
+        <link href="https://lostlau.github.io/post/pyspark_tuto2/">
+        </link>
+        <updated>2022-06-20T16:08:06.000Z</updated>
+        <summary type="html"><![CDATA[<p>pyspark学习的第二篇会主要介绍RDD和相关的算子。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>pyspark学习的第二篇会主要介绍RDD和相关的算子。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PySpark学习（一） - 学习环境的配置]]></title>
+        <id>https://lostlau.github.io/post/pyspark_tuto1/</id>
+        <link href="https://lostlau.github.io/post/pyspark_tuto1/">
+        </link>
+        <updated>2022-06-20T15:47:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>之前有做过一些大数据工程的项目，由于spark不是我的技术栈范围，所以取巧用了hive-udf编译的python脚本。想来spark是未来数据处理的趋势，所以最近开始学习pyspark，这个系列的博客将会边学边记录，可能会比较囫囵吞枣。第一篇会记录pyspark学习所需要的环境配置。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>之前有做过一些大数据工程的项目，由于spark不是我的技术栈范围，所以取巧用了hive-udf编译的python脚本。想来spark是未来数据处理的趋势，所以最近开始学习pyspark，这个系列的博客将会边学边记录，可能会比较囫囵吞枣。第一篇会记录pyspark学习所需要的环境配置。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[探索树莓派 - Let the hunt begin]]></title>
+        <id>https://lostlau.github.io/post/raspberrypi_1/</id>
+        <link href="https://lostlau.github.io/post/raspberrypi_1/">
+        </link>
+        <updated>2022-06-12T04:26:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近突然对树莓派（Rapsberry Pi）感兴趣，了解到它是一块类似于小型单片机的主板，可以做服务器，也可以通过智能自动化编程将软硬件结合搞点新东西。所以买了一个尝试自己摸索学习一下。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>最近突然对树莓派（Rapsberry Pi）感兴趣，了解到它是一块类似于小型单片机的主板，可以做服务器，也可以通过智能自动化编程将软硬件结合搞点新东西。所以买了一个尝试自己摸索学习一下。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown 简明语法参考]]></title>
+        <id>https://lostlau.github.io/post/markdown_tuto/</id>
+        <link href="https://lostlau.github.io/post/markdown_tuto/">
+        </link>
+        <updated>2022-06-01T07:02:18.000Z</updated>
+        <summary type="html"><![CDATA[<p>详细介绍了markdown的语法，算是工具书。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>详细介绍了markdown的语法，算是工具书。</p>
+]]></content>
+    </entry>
+</feed>
