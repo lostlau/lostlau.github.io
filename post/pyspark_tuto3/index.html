@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Lost Blog
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="刘蔚南">
+<meta name="description" content="Un jour, j&#39;ai eu son âge.">
+<meta name="keywords" content="lost,刘蔚南">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://lostlau.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+                                <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCPT77VC7L"></script>
+                                <script>
+                                    window.dataLayer = window.dataLayer || [];
+
+                                    function gtag() {
+                                        dataLayer.push(arguments);
+                                    }
+                                    gtag('js', new Date());
+                                    gtag('config', 'G-FCPT77VC7L');
+                                </script>
+                                
+                                    <script type="text/javascript">
+                                        var _hmt = _hmt || [];
+                                        (function() {
+                                            var hm = document.createElement("script");
+                                            hm.src = "https://hm.baidu.com/hm.js?46a94dcfca01e26a201e1f91f69a452f";
+                                            var s = document.getElementsByTagName("script")[0];
+                                            s.parentNode.insertBefore(hm, s);
+                                        })();
+                                    </script>
+                                    
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://lostlau.github.io">
+                    Lost Blog
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于我
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        文章
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签分类
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://lostlau.github.io">
+                            Lost Blog
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于我
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            文章
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签分类
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                PySpark学习（三） - DataFrame和SQL
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Lost Blog
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2022-06-24</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">9.3
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">1761</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://lostlau.github.io/tag/spark/">Spark</a>
+                                
+                                <a href="https://lostlau.github.io/tag/infotech/">IT</a>
+                                
+                                <a href="https://lostlau.github.io/tag/bigdata/">大数据工程</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://lostlau.github.io/post-images/pyspark_tuto3.png" alt="">
+                          
+                        <div class="post-content">
+                            <p>pyspark学习的第三篇会介绍DataFrame和其相关的操作运用。</p>
+<!-- more -->
+<h2 id="引言">引言</h2>
+<p>PySpark DataFrame是惰性计算的，可以算是RDD的上层类。同时，DataFrame也可以看成是行DataSet。</p>
+<p>以下将会记录DataFrame的创造、操作和UDF的运用，最后记录了SQL查询作用于DataFrame。</p>
+<pre><code class="language-python">from pyspark.sql import SparkSession
+from pyspark import SparkFiles, Row
+from pyspark.sql.types import *
+from pyspark.sql.functions import pandas_udf,PandasUDFType
+
+import pandas as pd
+import numpy as np
+
+import datetime
+</code></pre>
+<pre><code class="language-python">spark = SparkSession.builder.appName(&quot;example_sparksql&quot;).config(&quot;spark.some.config.option&quot;, &quot;some-value&quot;).getOrCreate()
+</code></pre>
+<pre><code class="language-python">spark.sparkContext
+</code></pre>
+<div>
+    <p><b>SparkContext</b></p>
+    <p><a href="http://1a04bf00a402:4040">Spark UI</a></p>
+    <dl>
+      <dt>Version</dt>
+        <dd><code>v3.2.1</code></dd>
+      <dt>Master</dt>
+        <dd><code>local[*]</code></dd>
+      <dt>AppName</dt>
+        <dd><code>example_sparksql</code></dd>
+    </dl>
+</div>
+<h2 id="创造spark-dataframe">创造Spark DataFrame</h2>
+<p>以下展示常用的4种方式来创建Spark DataFrame</p>
+<pre><code class="language-python">schema = StructType([
+    StructField(&quot;age&quot;, IntegerType(), True),
+    StructField(&quot;name&quot;, StringType(), True)
+])
+
+## 1.read from https
+print(&quot;---- 1.read from https and schema given ---- \n&quot;)
+url = &quot;https://raw.githubusercontent.com/apache/spark/master/examples/src/main/resources/people.json&quot;
+spark.sparkContext.addFile(url)
+df1 = spark.read.json(SparkFiles.get(&quot;people.json&quot;),schema=schema)
+print(&quot;df1's content is: &quot;)
+df1.show()
+print(&quot;df1's schema is: &quot;)
+df1.printSchema()
+
+
+## 2.create from pd.DataFrame
+print(&quot;---- 2.1. duplicate a same table in pd.DF then create from it ---- \n&quot;)
+df2 = spark.createDataFrame(pd.DataFrame({&quot;age&quot;:[None,30,19],&quot;name&quot;:[&quot;Michael&quot;,&quot;Andy&quot;,&quot;Justin&quot;]}))
+print(&quot;df2's content is: &quot;)
+df2.show()
+print(&quot;df2's schema is: &quot;)
+df2.printSchema()
+
+print(&quot;---- 2.2. find the diff with 1. and adjusting ---- \n&quot;)
+print(&quot;change float nan to Null, then check df2's content:&quot;)
+df2 = df2.replace(float('nan'),None)
+df2.show()
+print(&quot;adjust df2's schema:&quot;)
+df2 = df2.withColumn(&quot;age&quot;,df2.age.cast(IntegerType()))
+df2.printSchema()
+
+
+## 3.create by Row
+print(&quot;---- 3. Using [Row(.)] to create DataFrame ---- \n&quot;)
+df3 = spark.createDataFrame([
+    Row(age=None, name='Michael'),
+    Row(age=30, name='Andy'),
+    Row(age=19, name='Justin')
+], schema=&quot;age int, name string&quot;)
+print(&quot;show df3's schema:&quot;)
+df3.printSchema()
+
+
+## 4.create from rdd
+print(&quot;---- 4. Creating RDD then convert to DataFrame ---- \n&quot;)
+rdd = spark.sparkContext.parallelize([
+    (None, 'Michael'),
+    (30, 'Andy'),
+    (19, 'Justin')
+])
+df4 = spark.createDataFrame(rdd, schema=schema)
+print(&quot;show df4's schema:&quot;)
+df4.printSchema()
+</code></pre>
+<pre><code>---- 1.read from https and schema given ---- 
+
+df1's content is: 
++----+-------+
+| age|   name|
++----+-------+
+|null|Michael|
+|  30|   Andy|
+|  19| Justin|
++----+-------+
+
+df1's schema is: 
+root
+ |-- age: integer (nullable = true)
+ |-- name: string (nullable = true)
+
+---- 2.1. duplicate a same table in pd.DF then create from it ---- 
+
+df2's content is: 
++----+-------+
+| age|   name|
++----+-------+
+| NaN|Michael|
+|30.0|   Andy|
+|19.0| Justin|
++----+-------+
+
+df2's schema is: 
+root
+ |-- age: double (nullable = true)
+ |-- name: string (nullable = true)
+
+---- 2.2. find the diff with 1. and adjusting ---- 
+
+change float nan to Null, then check df2's content:
++----+-------+
+| age|   name|
++----+-------+
+|null|Michael|
+|30.0|   Andy|
+|19.0| Justin|
++----+-------+
+
+adjust df2's schema:
+root
+ |-- age: integer (nullable = true)
+ |-- name: string (nullable = true)
+
+---- 3. Using [Row(.)] to create DataFrame ---- 
+
+show df3's schema:
+root
+ |-- age: integer (nullable = true)
+ |-- name: string (nullable = true)
+
+---- 4. Creating RDD then convert to DataFrame ---- 
+
+show df4's schema:
+root
+ |-- age: integer (nullable = true)
+ |-- name: string (nullable = true)
+</code></pre>
+<h2 id="操作spark-dataframe">操作Spark DataFrame</h2>
+<pre><code class="language-python">df = df4
+</code></pre>
+<h3 id="查看数据">查看数据</h3>
+<p>df是惰性求值的，通过.show()来查看数据。df.columns可以展示表头。</p>
+<p>如果需要开启及时求值(‘即查即得’)模式，需要去配置项里进行更改：将<code>spark.sql.repl.eagerEval.enabled</code>设置为True。同时<code>spark.sql.repl.eagerEval.maxNumRows</code>可以设置最大行数。</p>
+<p>df.collect()其实在df内含的rdd上做collect()操作，也可以展示df的信息。取前/后几排操作可以使用<code>df.take()</code>和<code>df.tail()</code>实现，不同这些也都是在rdd上进行的操作，所以结果的类型并不是一个dataframe</p>
+<p>df同样可以转化为pandas.DataFrame。</p>
+<pre><code class="language-python">df.show()
+</code></pre>
+<pre><code>+----+-------+
+| age|   name|
++----+-------+
+|null|Michael|
+|  30|   Andy|
+|  19| Justin|
++----+-------+
+</code></pre>
+<pre><code class="language-python">df.columns
+</code></pre>
+<pre><code>['age', 'name']
+</code></pre>
+<pre><code class="language-python">spark.conf.set('spark.sql.repl.eagerEval.enabled', True)
+df
+</code></pre>
+<table border='1'>
+<tr><th>age</th><th>name</th></tr>
+<tr><td>null</td><td>Michael</td></tr>
+<tr><td>30</td><td>Andy</td></tr>
+<tr><td>19</td><td>Justin</td></tr>
+</table>
+<pre><code class="language-python">df.collect()
+</code></pre>
+<pre><code>[Row(age=None, name='Michael'),
+ Row(age=30, name='Andy'),
+ Row(age=19, name='Justin')]
+</code></pre>
+<pre><code class="language-python">df.take(1)
+</code></pre>
+<pre><code>[Row(age=None, name='Michael')]
+</code></pre>
+<pre><code class="language-python">df.toPandas()
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>age</th>
+      <th>name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>Michael</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>30.0</td>
+      <td>Andy</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>19.0</td>
+      <td>Justin</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3 id="筛选数据">筛选数据</h3>
+<p>pyspark里这一块最核心的类型是Column，所有的Column都可以通过.select()方法来获取展示。</p>
+<pre><code class="language-python">spark.conf.set('spark.sql.repl.eagerEval.enabled', False)
+</code></pre>
+<pre><code class="language-python">df.select(&quot;age&quot;).show()
+</code></pre>
+<pre><code>+----+
+| age|
++----+
+|null|
+|  30|
+|  19|
++----+
+</code></pre>
+<pre><code class="language-python">df.filter(df.age&gt;20).show()
+df[df.age&gt;20].show()
+</code></pre>
+<pre><code>+---+----+
+|age|name|
++---+----+
+| 30|Andy|
++---+----+
+
++---+----+
+|age|name|
++---+----+
+| 30|Andy|
++---+----+
+</code></pre>
+<pre><code class="language-python">df.withColumn(&quot;agenull_flag&quot;,df.age.isNotNull()).show()
+</code></pre>
+<pre><code>+----+-------+------------+
+| age|   name|agenull_flag|
++----+-------+------------+
+|null|Michael|       false|
+|  30|   Andy|        true|
+|  19| Justin|        true|
++----+-------+------------+
+</code></pre>
+<h3 id="apply自定义函数">apply自定义函数</h3>
+<p>使用pandas UDF（User Defined Function）可以很简单的自定义想要应用的函数。它的作用机理是：由Spark执行，使用Arrow（一种用于内存计算的列式数据结构的库，可以极大的增强JVM和Python之间的数据传输效率，具体可见这篇<a href="http://www.zdingke.com/2019/12/31/arrow%E5%9C%A8pyspark%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8/">文章</a>）传输数据，通过Pandas执行数据计算，允许向量化操作。</p>
+<p>Pandas UDF通过使用pandas_udf作为装饰器包装函数来定义，不需要额外的配置。</p>
+<pre><code class="language-python">df = spark.createDataFrame([
+    Row(name='A', age=20, weight=80.),
+    Row(name='A', age=21, weight=85.),
+    Row(name='A', age=22, weight=83.),
+    Row(name='A', age=23, weight=78.),
+    Row(name='B', age=30, weight=60.),
+    Row(name='B', age=31, weight=65.),
+    Row(name='B', age=32, weight=70.),    
+],schema=&quot;name string,age long,weight double&quot;)
+
+df.printSchema()
+df.show()
+</code></pre>
+<pre><code>root
+ |-- name: string (nullable = true)
+ |-- age: long (nullable = true)
+ |-- weight: double (nullable = true)
+
++----+---+------+
+|name|age|weight|
++----+---+------+
+|   A| 20|  80.0|
+|   A| 21|  85.0|
+|   A| 22|  83.0|
+|   A| 23|  78.0|
+|   B| 30|  60.0|
+|   B| 31|  65.0|
+|   B| 32|  70.0|
++----+---+------+
+</code></pre>
+<pre><code class="language-python">## 使用pandas_udf装饰器来定义udf有一下2个要点：
+## 1.@pandas_udf里需要定义出参的数据格式 （pyspark.sql.types里的那些或者其对应的简写）
+## 2.def的函数需定义入出参的类型，常用的有如下2种：
+##   ---- pd.Series -&gt; pd.Series
+##   ---- pd.Series -&gt; Scalar（单值，这儿需给出具体取值的类型：str、int等）
+
+@pandas_udf('long')
+def plus_one(series: pd.Series) -&gt; pd.Series:
+    return series + 1
+df.select(plus_one(df[&quot;age&quot;]).alias(&quot;age_plus1&quot;)).show()
+
+@pandas_udf('double')
+def get_mean(series: pd.Series) -&gt; float:
+    return series.mean()
+df.select(get_mean(df[&quot;weight&quot;]).alias(&quot;weight_mean&quot;)).show()
+
+@pandas_udf('double')
+def weight2age(age:pd.Series, wt:pd.Series) -&gt; pd.Series:
+    return (wt/age).round(2)
+df.select(weight2age(df[&quot;age&quot;],df[&quot;weight&quot;]).alias(&quot;wt2age&quot;)).show()
+
+</code></pre>
+<pre><code>+---------+
+|age_plus1|
++---------+
+|       21|
+|       22|
+|       23|
+|       24|
+|       31|
+|       32|
+|       33|
++---------+
+
++-----------------+
+|      weight_mean|
++-----------------+
+|74.42857142857143|
++-----------------+
+
++------+
+|wt2age|
++------+
+|   4.0|
+|  4.05|
+|  3.77|
+|  3.39|
+|   2.0|
+|   2.1|
+|  2.19|
++------+
+</code></pre>
+<pre><code class="language-python">## 在groupby的基础上也可以使用udf（相当于是udaf）。pd.DataFrame -&gt; pd.DataFrame
+
+## 老版apply，通过@pandas_udf装饰器，第二个参数必须使用PandasUDFType.GROUPED_MAP
+@pandas_udf('name string, alpha float, beta float',PandasUDFType.GROUPED_MAP)
+def get_fitline_old(pdf):
+    res = np.polyfit(pdf[&quot;weight&quot;],pdf[&quot;age&quot;],1)
+    beta = round(res[0],2)
+    alpha = round(res[1],2)
+    name = pdf[&quot;name&quot;][0]
+    return pd.DataFrame({&quot;name&quot;:[name],&quot;alpha&quot;:[alpha],&quot;beta&quot;:[beta]})
+print(&quot;---- 这是老版的apply ----&quot;)
+df.groupby(&quot;name&quot;).apply(get_fitline_old).show()
+
+
+## 新版applyInPandas，不需要装饰器，但是需要在applyInPandas里给定schema
+print(&quot;---- 这是新版的applyInPandas ----&quot;)
+def get_fitline_new(pdf):
+    res = np.polyfit(pdf[&quot;weight&quot;],pdf[&quot;age&quot;],1)
+    beta = round(res[0],2)
+    alpha = round(res[1],2)
+    name = pdf[&quot;name&quot;][0]
+    return pd.DataFrame({&quot;name&quot;:[name],&quot;alpha&quot;:[alpha],&quot;beta&quot;:[beta]})
+df.groupby(&quot;name&quot;).applyInPandas(get_fitline_new,schema=&quot;name string, alpha double, beta double&quot;).show()
+
+</code></pre>
+<pre><code>---- 这是老版的apply ----
++----+-----+-----+
+|name|alpha| beta|
++----+-----+-----+
+|   A|32.74|-0.14|
+|   B| 18.0|  0.2|
++----+-----+-----+
+
+---- 这是新版的applyInPandas ----
++----+-----+-----+
+|name|alpha| beta|
++----+-----+-----+
+|   A|32.74|-0.14|
+|   B| 18.0|  0.2|
++----+-----+-----+
+</code></pre>
+<h2 id="在spark-dataframe里操作sql指令">在Spark DataFrame里操作SQL指令</h2>
+<p>针对某个spark dataframe使用<code>createOrReplaceTempView()</code>来进行数据库表的注册，然后通过<code>spark.sql</code>发起SQL操作。</p>
+<p>同样，之前定义的pandas_udf函数可以使用在SQL查询里，通过<code>spark.udf.register</code>进行注册，然后在sql文里就可以使用了。</p>
+<pre><code class="language-python">df.createOrReplaceTempView(&quot;table_tmp&quot;)
+spark.sql(&quot;select * from table_tmp where name='A'&quot;).show()
+</code></pre>
+<pre><code>+----+---+------+
+|name|age|weight|
++----+---+------+
+|   A| 20|  80.0|
+|   A| 21|  85.0|
+|   A| 22|  83.0|
+|   A| 23|  78.0|
++----+---+------+
+</code></pre>
+<pre><code class="language-python">spark.udf.register(&quot;plus_one&quot;, plus_one)
+spark.sql(&quot;SELECT plus_one(age) as age_plus1 FROM table_tmp&quot;).show()
+
+</code></pre>
+<pre><code>+---------+
+|age_plus1|
++---------+
+|       21|
+|       22|
+|       23|
+|       24|
+|       31|
+|       32|
+|       33|
++---------+
+</code></pre>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%BC%95%E8%A8%80">引言</a></li>
+<li><a href="#%E5%88%9B%E9%80%A0spark-dataframe">创造Spark DataFrame</a></li>
+<li><a href="#%E6%93%8D%E4%BD%9Cspark-dataframe">操作Spark DataFrame</a>
+<ul>
+<li><a href="#%E6%9F%A5%E7%9C%8B%E6%95%B0%E6%8D%AE">查看数据</a></li>
+<li><a href="#%E7%AD%9B%E9%80%89%E6%95%B0%E6%8D%AE">筛选数据</a></li>
+<li><a href="#apply%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0">apply自定义函数</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9C%A8spark-dataframe%E9%87%8C%E6%93%8D%E4%BD%9Csql%E6%8C%87%E4%BB%A4">在Spark DataFrame里操作SQL指令</a></li>
+</ul>
+</li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Lost Blog</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://lostlau.github.io/post/pyspark_tuto3/">https://lostlau.github.io/post/pyspark_tuto3/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lostlau.github.io/post/pyspark_tuto3/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lostlau.github.io/post/pyspark_tuto3/&sharesource=qzone&title=PySpark学习（三） - DataFrame和SQL&pics=https://lostlau.github.io/images/avatar.png?v=1753006403576&summary=&lt;p&gt;pyspark学习的第三篇会介绍DataFrame和其相关的操作运用。&lt;/p&gt;
+"><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://lostlau.github.io/post/pyspark_tuto3/&sharesource=weibo&title=PySpark学习（三） - DataFrame和SQL + " - " + &lt;p&gt;pyspark学习的第三篇会介绍DataFrame和其相关的操作运用。&lt;/p&gt;
+&pic="https://lostlau.github.io/images/avatar.png?v=1753006403576 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://lostlau.github.io/tag/spark/">#
+                    Spark
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/infotech/">#
+                    IT
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/bigdata/">#
+                    大数据工程
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://lostlau.github.io/post/transformer_based_ts/">
+                                                                                            transformer-based时序领域算法总结
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://lostlau.github.io/post/pmp_intro/">
+                                                                                                    PMP学习&amp;考试 - 引子
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                
+                                                                                                            
+                                                                                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: 'IDwm6MbiTzz7kIRCFR8CK7G4-9Nh9j0Va',
+        appKey: 'ghgXCbobWxBYTG3VWr1uTRpF',
+        pageSize: 10,
+        avatar: 'mp',
+        placeholder: '水平一般，能力有限，能回答的博主尽量回答:)',
+        visitor: true,
+        highlight: true,
+        recordIP: false,
+    })
+</script>
+                                                                                                                    
+                    </article>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        Created by <a href="https://github.com/lostlau/lostlau.github.io" target="_blank">Lostlau</a>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Lost Blog &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank">
+                                                Chic
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1753006403576);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Lost Blog
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="刘蔚南">
+<meta name="description" content="Un jour, j&#39;ai eu son âge.">
+<meta name="keywords" content="lost,刘蔚南">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://lostlau.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+                                <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCPT77VC7L"></script>
+                                <script>
+                                    window.dataLayer = window.dataLayer || [];
+
+                                    function gtag() {
+                                        dataLayer.push(arguments);
+                                    }
+                                    gtag('js', new Date());
+                                    gtag('config', 'G-FCPT77VC7L');
+                                </script>
+                                
+                                    <script type="text/javascript">
+                                        var _hmt = _hmt || [];
+                                        (function() {
+                                            var hm = document.createElement("script");
+                                            hm.src = "https://hm.baidu.com/hm.js?46a94dcfca01e26a201e1f91f69a452f";
+                                            var s = document.getElementsByTagName("script")[0];
+                                            s.parentNode.insertBefore(hm, s);
+                                        })();
+                                    </script>
+                                    
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://lostlau.github.io">
+                    Lost Blog
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于我
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        文章
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签分类
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://lostlau.github.io">
+                            Lost Blog
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于我
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            文章
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签分类
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                数值计算的精度与量化技术
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Lost Blog
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2024-01-24</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">8.8
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">2331</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://lostlau.github.io/tag/llm/">大语言模型</a>
+                                
+                                <a href="https://lostlau.github.io/tag/infotech/">IT</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://lostlau.github.io/post-images/quantization.png" alt="">
+                          
+                        <div class="post-content">
+                            <p>为了节约大模型的部署资源，最有效的方法就是“量化（quantization）”，这儿的量化可不是量化投资（开玩笑，🐶）里的量化，是指降低模型参数的精度，即将原本的高精度浮点数（如32位或16位浮点数）转换为更低位数的整数或更低位的浮点数（如8位整数或浮点数），从而减少存储需求和计算时间的方法。想要弄懂量化首先需要理解数据的精度。</p>
+<!-- more -->
+<h2 id="从fp32开始">从FP32开始</h2>
+<p>计算机处理数字类型包括整数类型和浮点类型，IEEE-754标准定义了浮点类型数据的存储结构。一个浮点数由三部分组成，以最常见的FP32(Float Point 32)为例：<br>
+<img src="https://lostlau.github.io/post-images/quantization/IEEE754_fp32.png" alt="" width="80%" loading="lazy"><br>
+<strong>Sign</strong>：最高位用1位表示符号位，1表示负数，0表示正数，记为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">S</mi></mrow><annotation encoding="application/x-tex">\mathrm{S}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathrm">S</span></span></span></span></span><br>
+<strong>Exponent</strong>：中间8位表示指数位，记为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">E</mi></mrow><annotation encoding="application/x-tex">\mathrm{E}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathrm">E</span></span></span></span></span><br>
+<strong>Mantissa</strong>：低位23位表示小数位，记为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">M</mi></mrow><annotation encoding="application/x-tex">\mathrm{M}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathrm">M</span></span></span></span></span></p>
+<p><strong>【举个例子】</strong><br>
+我们拿12.75举例，来看十进制和FP32二进制之间的转换。<br>
+首先，分为整数位和小数位，整数位是12，转换为二进制是<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1100</mn></mrow><annotation encoding="application/x-tex">1100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span>（因为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>12</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">12=2^3+2^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.897438em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>，换底之后=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>3</mn></msup><mo>+</mo><mn>1</mn><msup><mn>0</mn><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">10^3+10^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.897438em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>）。然后是小数位0.75=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>2</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">2^{-1}+2^{-2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.897438em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>，转化为二进制后就是<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0.11</mn></mrow><annotation encoding="application/x-tex">0.11</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">1</span><span class="mord">1</span></span></span></span>。小数部分的转换也可以用乘2取整数部分，如果整数为1那么该指数位记一次，剩余的小数部分再继续进行判断，一直迭代循环直到小数部分为0。把整数和小数的二进制加起来就是总的二进制转换结果：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1100.11</mn></mrow><annotation encoding="application/x-tex">1100.11</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">.</span><span class="mord">1</span><span class="mord">1</span></span></span></span>，再转换成科学计数指数形式：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1.10011</mn><mo>×</mo><msup><mn>2</mn><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">1.10011\times2^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">.</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span>。这儿的指数级数<strong>3</strong>就是原始指数位，不过再根据IEEE-754的规范，FP32的指数部分要加127偏移，调整为3+127=130，然后再转为二进制，最终指数位为10000010。小数部分10011补齐为23位后得到最终小数位，符号位为0，三个部分拼起来就是</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mtext> </mtext><mn>10000010</mn><mtext> </mtext><mn>10011000000000000000000</mn></mrow><annotation encoding="application/x-tex">0\ 10000010\ 10011000000000000000000
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mspace"> </span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mord">0</span><span class="mspace"> </span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span></span></span></span></span></p>
+<p>使用<a href="https://www.h-schmidt.net/FloatConverter/IEEE754.html">转换工具</a>验证，结果一致。工具的上面把三个部分都表示出来了，复选框打勾表示对应位置二进制数为1，否则为0。<br>
+<img src="https://lostlau.github.io/post-images/quantization/example_fp32.png" alt="" width="100%" loading="lazy"></p>
+<p>将FP32复原为十进制，那么把上面的转换逆转过来，可以有公式：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><msup><mo>)</mo><mi mathvariant="normal">S</mi></msup><mo>×</mo><msup><mn>2</mn><mrow><mi>g</mi><mo>(</mo><mi mathvariant="normal">E</mi><mo>)</mo><mo>−</mo><mn>127</mn></mrow></msup><mo>×</mo><mi>g</mi><mo>(</mo><mn>1.</mn><mi mathvariant="normal">M</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">x=(-1)^{\mathrm{S}} \times 2^{g(\mathrm{E})-127} \times g(1.\mathrm{M})
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.1413309999999999em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">−</span><span class="mord">1</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913309999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">S</span></span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.0213299999999998em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.938em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">g</span><span class="mopen mtight">(</span><span class="mord mtight"><span class="mord mathrm mtight">E</span></span><span class="mclose mtight">)</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mord mtight">2</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord">1</span><span class="mord">.</span><span class="mord"><span class="mord mathrm">M</span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>其中<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi></mrow><annotation encoding="application/x-tex">g</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span>表示二进制转十进制。<br>
+那么回到12.75的例子，10000010转十进制就是130，1.10011转十进制为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>+</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>+</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mo>=</mo><mfrac><mn>51</mn><mn>32</mn></mfrac></mrow><annotation encoding="application/x-tex">1+2^{-1}+2^{-4}+2^{-5}=\frac{51}{32}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.897438em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.897438em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">4</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">5</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>。所以最终<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo>=</mo><msup><mn>2</mn><mrow><mn>130</mn><mo>−</mo><mn>127</mn></mrow></msup><mo>×</mo><mfrac><mn>51</mn><mn>32</mn></mfrac><mo>=</mo><mfrac><mn>51</mn><mn>4</mn></mfrac><mo>=</mo><mn>12.75</mn></mrow><annotation encoding="application/x-tex">x=2^{130-127}\times \frac{51}{32}=\frac{51}{4}=12.75</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.897438em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mord mtight">3</span><span class="mord mtight">0</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mord mtight">2</span><span class="mord mtight">7</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">2</span><span class="mord">.</span><span class="mord">7</span><span class="mord">5</span></span></span></span>。<br>
+FP32搞清楚，FP16、FP64类似，只是指数位和小数位的长度不一样：</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>符号位长度</th>
+<th>指数位长度</th>
+<th>小数位长度</th>
+<th>偏移</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>半精度FP16</td>
+<td>1</td>
+<td>5</td>
+<td>10</td>
+<td>15</td>
+</tr>
+<tr>
+<td>单精度FP32</td>
+<td>1</td>
+<td>8</td>
+<td>23</td>
+<td>127</td>
+</tr>
+<tr>
+<td>双精度FP64</td>
+<td>1</td>
+<td>11</td>
+<td>52</td>
+<td>1023</td>
+</tr>
+</tbody>
+</table>
+<p>所以12.75的FP16的表示为：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mtext> </mtext><mn>10010</mn><mtext> </mtext><mn>1001100000</mn></mrow><annotation encoding="application/x-tex">0\ 10010\ 1001100000
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mspace"> </span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mord">0</span><span class="mspace"> </span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span></span></span></span></span></p>
+<p>FP64的表示为：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mtext> </mtext><mn>10000000010</mn><mtext> </mtext><mn>1001100000000000000000000000000000000000000000000000</mn></mrow><annotation encoding="application/x-tex">0\ 10000000010\ 1001100000000000000000000000000000000000000000000000
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mspace"> </span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mord">0</span><span class="mspace"> </span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">1</span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span><span class="mord">0</span></span></span></span></span></p>
+<h2 id="不同精度的优劣">不同精度的优劣</h2>
+<p>对比FP32和FP64，其明显优势是：</p>
+<ol>
+<li>节约储存空间。由于FP32只占32位，是FP64的一半，所以也只会占用一半的存储空间。在相同的GPU下，能装的模型参数的就变多了，或者相同模型参数训练/推理时的batch_size可以更大。</li>
+<li>提高计算速度。同样的两个数计算，位数少了，计算量也就相应降低了，所以算得更快。</li>
+</ol>
+<p>那么，其劣势也很明显：</p>
+<ol>
+<li>
+<p>精度问题。小数位数少了，能表达的精度（小数点后的位数）就降低了。比如同样是表示1/3，FP16、32、64转换出的精度分别如下：<br>
+<img src="https://lostlau.github.io/post-images/quantization/fp_precision_compare.png" alt="" width="75%" loading="lazy"><br>
+精度越高，数据表示和计算越准确，模型训练拟合出来的参数更精准，这个需要看我们对具体模型精度的要求。</p>
+</li>
+<li>
+<p>溢出问题。指数位少了，那么能表示的整数范围也变小了，有些很大的整数可能就无法表示了。能表示的范围见下图，比如FP16就只能表示[-65504,65504]之间的数。<br>
+<img src="https://lostlau.github.io/post-images/quantization/fp_range_compare.png" alt="" width="100%" loading="lazy"></p>
+</li>
+</ol>
+<h2 id="混合精度">混合精度</h2>
+<p>既然FP32和FP16长短各有优缺点，那我们就可以采取混合使用的方法，在模型训练的不同步骤使用不同的精度：<br>
+<img src="https://lostlau.github.io/post-images/quantization/mixed_precision.png" alt="" width="60%" loading="lazy"></p>
+<ol>
+<li>把神经网络权重参数由初始化的FP32转为FP16；</li>
+<li>用FP16进行前向和后向计算，并进行梯度计算；</li>
+<li>把FP16的梯度转为FP32；</li>
+<li>使用FP32的梯度和学习率learning rate相乘；</li>
+<li>使用FP32更新网络权重，得到FP32的更新后的权重。</li>
+</ol>
+<p>以上步骤不断循环进行。简单来讲就是使用梯度更新权重的时候用FP32，因为梯度乘上学习率后一般数值都比较小，使用FP32能防止精度不够。</p>
+<p>混合使用精度的时候，有一个&quot;损失缩放&quot;的技术，在反向计算前，将得到的损失扩大一个倍数，避免数据太小精度不够变为0了，扩大后在FP16可表达的范围内，反向计算后，再把梯度缩小同样的倍数，确保最后数值是对的。</p>
+<p>混合精度可以让模型训练的速度更快，资源占用更低，同时保持一个不错的准确度。</p>
+<h2 id="bf16-tf32">BF16、TF32</h2>
+<p>FP16的指数位只有5位，小数位10位，能表示的整数范围有点小，于是谷歌为了深度学习特别是他们的TPU定义了一种新的格式Brain Floating Point 16，简称BF16。和FP16比，总长度都是16位，只是把指数由5位变为了8位（和FP32一样，能有其相同的整数范围），小数位数缩短到了7位。</p>
+<p>英伟达根据其GPU的需要定义了TF32(Tensor Float 32)，指数位8位（和FP32、BF16一样），小数位10位（和FP16一样，比BF16长），其实就是比BF16多了3个小数位。虽然叫TF32，但是并不是32位的，有点‘高效’32位的意思，范围搞到FP32，同时精度保持FP16。<br>
+<img src="https://lostlau.github.io/post-images/quantization/nvidia_floating.png" alt="" width="60%" loading="lazy"></p>
+<h2 id="int8量化">INT8量化</h2>
+<p>上面介绍完浮点数的类型和精度，我们可以知道使用FP16可以比FP32消耗的显存缩减一半，同样的我们可以进一步降低精度，使用比如FP8来继续减半显存的消耗，不过这样带来的模型输出准确性的降低可能是灾难性的。为了缓解这种准确性的降低同时可以进一步降低资源消耗，引入了所谓的量化技术，我们来看一下Int8的量化。</p>
+<p>量化的核心思想就是放缩+rounding，将原始的数值通过放缩+rounding转换成一个范围内的整型数值（INT）来表示原数值。INT8就是转换到[-128,127]范围内。公式表示：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>x</mi><mi>q</mi></msub><mo>=</mo><mrow><mi mathvariant="normal">C</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">p</mi></mrow><mo>(</mo><mrow><mi mathvariant="normal">R</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">n</mi><mi mathvariant="normal">d</mi></mrow><mo>(</mo><msub><mi>x</mi><mi>f</mi></msub><mo>∗</mo><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">e</mi></mrow><mo>)</mo><mo>)</mo></mrow><annotation encoding="application/x-tex">x_q = \mathrm{Clip}(\mathrm{Round}(x_f*\mathrm{scale}))
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.716668em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">q</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.036108em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathrm">C</span><span class="mord mathrm">l</span><span class="mord mathrm">i</span><span class="mord mathrm">p</span></span><span class="mopen">(</span><span class="mord"><span class="mord mathrm">R</span><span class="mord mathrm">o</span><span class="mord mathrm">u</span><span class="mord mathrm">n</span><span class="mord mathrm">d</span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">s</span><span class="mord mathrm">c</span><span class="mord mathrm">a</span><span class="mord mathrm">l</span><span class="mord mathrm">e</span></span><span class="mclose">)</span><span class="mclose">)</span></span></span></span></span></p>
+<p>其中 Round 表示四舍五入都整数，Clip 表示将离群值(Outlier) 截断到 [-128, 127] 范围内。对于 scale 值，通常按如下方式计算得到：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">e</mi></mrow><mo>=</mo><mn>127</mn><mi mathvariant="normal">/</mi><mi>max</mi><mo>⁡</mo><mo>(</mo><mi mathvariant="normal">∣</mi><msub><mi>x</mi><mi>f</mi></msub><mi mathvariant="normal">∣</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\mathrm{scale}=127/\max(|x_f|)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord mathrm">s</span><span class="mord mathrm">c</span><span class="mord mathrm">a</span><span class="mord mathrm">l</span><span class="mord mathrm">e</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.036108em;vertical-align:-0.286108em;"></span><span class="mord">1</span><span class="mord">2</span><span class="mord">7</span><span class="mord">/</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">max</span><span class="mopen">(</span><span class="mord">∣</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mclose">)</span></span></span></span></span></p>
+<p>反量化的过程为：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>x</mi><mi>f</mi><mo mathvariant="normal">′</mo></msubsup><mo>=</mo><msub><mi>x</mi><mi>q</mi></msub><mi mathvariant="normal">/</mi><mrow><mi mathvariant="normal">s</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">e</mi></mrow></mrow><annotation encoding="application/x-tex">x_f^\prime = x_q/\mathrm{scale}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.185em;vertical-align:-0.383108em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.801892em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span></span></span><span style="top:-3.1130000000000004em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">′</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.383108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.036108em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139200000000003em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">q</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord"><span class="mord mathrm">s</span><span class="mord mathrm">c</span><span class="mord mathrm">a</span><span class="mord mathrm">l</span><span class="mord mathrm">e</span></span></span></span></span></span></p>
+<p>以下是一个INT8量化与反量化的例子：<br>
+<img src="https://lostlau.github.io/post-images/quantization/quantization_example.png" alt="" width="80%" loading="lazy"></p>
+<p>当进行矩阵乘法时，可以通过组合各种技巧，例如逐行或逐向量量化，来获取更精确的结果。举个例子，对矩阵乘法，我们不会直接使用常规量化方式，即用整个张量的最大绝对值对张量进行归一化，而会转而使用向量量化方法，找到 A 的每一行和 B 的每一列的最大绝对值，然后逐行或逐列归一化 A 和 B 。最后将 A 与 B 相乘得到 C。最后，我们再计算与 A 和 B 的最大绝对值向量的外积，并将此与 C 求哈达玛积来反量化回 FP16。</p>
+<p>同时，上述的量化方式如果遇到离群点将会导致scale变得很小，那么大部分正常点转换后就会集中在一坨或者一个点上，反量化后会有非常大的误差。那么一种方法是在矩阵运算的时候，先根据异常值进行分解，包含异常值的那部分矩阵进行正常的FP16/FP32的运算，无异常值的部分进行量化运算，之后再把结果聚合起来。具体的一些介绍可以看<a href="https://huggingface.co/blog/hf-bitsandbytes-integration">这篇blog</a>。</p>
+<p>INT8量化后的模型大小会变成FP16的一半，其真实计算时的参数数据又可以反量化到FP16/32，保持了计算精度。在此基础上，想进一步再降低资源消耗，那么可以进行INT4的量化，道理和INT8一样，只不过放缩的表示区间缩到了[-8,7]。</p>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E4%BB%8Efp32%E5%BC%80%E5%A7%8B">从FP32开始</a></li>
+<li><a href="#%E4%B8%8D%E5%90%8C%E7%B2%BE%E5%BA%A6%E7%9A%84%E4%BC%98%E5%8A%A3">不同精度的优劣</a></li>
+<li><a href="#%E6%B7%B7%E5%90%88%E7%B2%BE%E5%BA%A6">混合精度</a></li>
+<li><a href="#bf16-tf32">BF16、TF32</a></li>
+<li><a href="#int8%E9%87%8F%E5%8C%96">INT8量化</a></li>
+</ul>
+</li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Lost Blog</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://lostlau.github.io/post/quantization/">https://lostlau.github.io/post/quantization/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lostlau.github.io/post/quantization/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lostlau.github.io/post/quantization/&sharesource=qzone&title=数值计算的精度与量化技术&pics=https://lostlau.github.io/images/avatar.png?v=1753006403576&summary=&lt;p&gt;为了节约大模型的部署资源，最有效的方法就是“量化（quantization）”，这儿的量化可不是量化投资（开玩笑，🐶）里的量化，是指降低模型参数的精度，即将原本的高精度浮点数（如32位或16位浮点数）转换为更低位数的整数或更低位的浮点数（如8位整数或浮点数），从而减少存储需求和计算时间的方法。想要弄懂量化首先需要理解数据的精度。&lt;/p&gt;
+"><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://lostlau.github.io/post/quantization/&sharesource=weibo&title=数值计算的精度与量化技术 + " - " + &lt;p&gt;为了节约大模型的部署资源，最有效的方法就是“量化（quantization）”，这儿的量化可不是量化投资（开玩笑，🐶）里的量化，是指降低模型参数的精度，即将原本的高精度浮点数（如32位或16位浮点数）转换为更低位数的整数或更低位的浮点数（如8位整数或浮点数），从而减少存储需求和计算时间的方法。想要弄懂量化首先需要理解数据的精度。&lt;/p&gt;
+&pic="https://lostlau.github.io/images/avatar.png?v=1753006403576 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://lostlau.github.io/tag/llm/">#
+                    大语言模型
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/infotech/">#
+                    IT
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://lostlau.github.io/post/attention_to_gpt/">
+                                                                                            从attention到GPT
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://lostlau.github.io/post/docker_cli/">
+                                                                                                    Docker 指令记录
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                
+                                                                                                            
+                                                                                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: 'IDwm6MbiTzz7kIRCFR8CK7G4-9Nh9j0Va',
+        appKey: 'ghgXCbobWxBYTG3VWr1uTRpF',
+        pageSize: 10,
+        avatar: 'mp',
+        placeholder: '水平一般，能力有限，能回答的博主尽量回答:)',
+        visitor: true,
+        highlight: true,
+        recordIP: false,
+    })
+</script>
+                                                                                                                    
+                    </article>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        Created by <a href="https://github.com/lostlau/lostlau.github.io" target="_blank">Lostlau</a>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Lost Blog &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank">
+                                                Chic
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1753006403576);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

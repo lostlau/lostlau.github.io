@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lostlau.github.io</id>
+    <title>Lost Blog</title>
+    <updated>2025-07-20T10:13:30.010Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lostlau.github.io"/>
+    <link rel="self" href="https://lostlau.github.io/atom.xml"/>
+    <subtitle>这里是Lost@刘蔚南的个人博客，与你一起发现更大的世界。</subtitle>
+    <logo>https://lostlau.github.io/images/avatar.png</logo>
+    <icon>https://lostlau.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, Lost Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[大模型的Memery]]></title>
+        <id>https://lostlau.github.io/post/da-mo-xing-de-memery/</id>
+        <link href="https://lostlau.github.io/post/da-mo-xing-de-memery/">
+        </link>
+        <updated>2025-07-06T09:23:37.000Z</updated>
+        <summary type="html"><![CDATA[<p>在大模型Agent的设计中，Agent所必备的能力被抽象解构成好几个重要的模块，比如planning，tools，memory等。我个人比较喜欢用下面这张经典老图的拆解来表示：<br>
+<img src="https://lostlau.github.io/post-images/memory/llm_agent.png" alt="" width="80%" loading="lazy"></p>
+<p>这里将一个智能体拆解成了3个最重要的模块：感知模块、决策模块和行动模块。这篇blog主要想记录对决策模块里memory的理解思考和当前比较主流的memory机制 - <strong>mem0</strong>的paper work的记录。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在大模型Agent的设计中，Agent所必备的能力被抽象解构成好几个重要的模块，比如planning，tools，memory等。我个人比较喜欢用下面这张经典老图的拆解来表示：<br>
+<img src="https://lostlau.github.io/post-images/memory/llm_agent.png" alt="" width="80%" loading="lazy"></p>
+<p>这里将一个智能体拆解成了3个最重要的模块：感知模块、决策模块和行动模块。这篇blog主要想记录对决策模块里memory的理解思考和当前比较主流的memory机制 - <strong>mem0</strong>的paper work的记录。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[轮盘赌？]]></title>
+        <id>https://lostlau.github.io/post/lun-pan-du/</id>
+        <link href="https://lostlau.github.io/post/lun-pan-du/">
+        </link>
+        <updated>2025-05-25T10:43:08.000Z</updated>
+        <summary type="html"><![CDATA[<p></p>
+]]></summary>
+        <content type="html"><![CDATA[<p></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[强化学习的基本概念]]></title>
+        <id>https://lostlau.github.io/post/intro_reinforcement_learning/</id>
+        <link href="https://lostlau.github.io/post/intro_reinforcement_learning/">
+        </link>
+        <updated>2024-02-06T06:55:39.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从attention到GPT]]></title>
+        <id>https://lostlau.github.io/post/attention_to_gpt/</id>
+        <link href="https://lostlau.github.io/post/attention_to_gpt/">
+        </link>
+        <updated>2024-01-28T03:39:31.000Z</updated>
+        <summary type="html"><![CDATA[<p>去年搞了半年的大语言模型的应用开发。大语言模型的应用技术门槛相对较低，不过发挥第一性原理，抽点时间再回顾一下跟模型架构相关的理论知识。<br>
+简略的一些纪要，不会做详细的讲解。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>去年搞了半年的大语言模型的应用开发。大语言模型的应用技术门槛相对较低，不过发挥第一性原理，抽点时间再回顾一下跟模型架构相关的理论知识。<br>
+简略的一些纪要，不会做详细的讲解。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数值计算的精度与量化技术]]></title>
+        <id>https://lostlau.github.io/post/quantization/</id>
+        <link href="https://lostlau.github.io/post/quantization/">
+        </link>
+        <updated>2024-01-24T11:48:19.000Z</updated>
+        <summary type="html"><![CDATA[<p>为了节约大模型的部署资源，最有效的方法就是“量化（quantization）”，这儿的量化可不是量化投资（开玩笑，🐶）里的量化，是指降低模型参数的精度，即将原本的高精度浮点数（如32位或16位浮点数）转换为更低位数的整数或更低位的浮点数（如8位整数或浮点数），从而减少存储需求和计算时间的方法。想要弄懂量化首先需要理解数据的精度。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>为了节约大模型的部署资源，最有效的方法就是“量化（quantization）”，这儿的量化可不是量化投资（开玩笑，🐶）里的量化，是指降低模型参数的精度，即将原本的高精度浮点数（如32位或16位浮点数）转换为更低位数的整数或更低位的浮点数（如8位整数或浮点数），从而减少存储需求和计算时间的方法。想要弄懂量化首先需要理解数据的精度。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker 指令记录]]></title>
+        <id>https://lostlau.github.io/post/docker_cli/</id>
+        <link href="https://lostlau.github.io/post/docker_cli/">
+        </link>
+        <updated>2023-06-24T03:03:10.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PMP学习&考试 - 总结]]></title>
+        <id>https://lostlau.github.io/post/pmp_conclu/</id>
+        <link href="https://lostlau.github.io/post/pmp_conclu/">
+        </link>
+        <updated>2023-05-22T08:06:46.000Z</updated>
+        <summary type="html"><![CDATA[<p>该系列并没有更新起来就结束了，因为说实话有点无聊😂。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>该系列并没有更新起来就结束了，因为说实话有点无聊😂。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prompting Engineering]]></title>
+        <id>https://lostlau.github.io/post/prompting-engineering/</id>
+        <link href="https://lostlau.github.io/post/prompting-engineering/">
+        </link>
+        <updated>2023-05-12T09:08:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>吴恩达+OpenAI的教程总结（准则主要作用于ChatGPT，其他模型不一定适用）</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>吴恩达+OpenAI的教程总结（准则主要作用于ChatGPT，其他模型不一定适用）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[transformer-based时序领域算法总结]]></title>
+        <id>https://lostlau.github.io/post/transformer_based_ts/</id>
+        <link href="https://lostlau.github.io/post/transformer_based_ts/">
+        </link>
+        <updated>2023-03-15T09:49:58.000Z</updated>
+        <summary type="html"><![CDATA[<p>由于工作原因，近段时间对时序领域的机器学习任务（forecasting、regression、classification、clustering、segmentation、anomaly detection等）有较多接触，同时我也对这一领域有较大的兴趣，于是开个帖子作为记录。本篇主要记录基于transformer的神经网络算法，它们适用的大多数任务场景为时序的forecasting。<strong><font color=#e54b4b size=3> 本篇将会持续更新。</font></strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>由于工作原因，近段时间对时序领域的机器学习任务（forecasting、regression、classification、clustering、segmentation、anomaly detection等）有较多接触，同时我也对这一领域有较大的兴趣，于是开个帖子作为记录。本篇主要记录基于transformer的神经网络算法，它们适用的大多数任务场景为时序的forecasting。<strong><font color=#e54b4b size=3> 本篇将会持续更新。</font></strong></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PySpark学习（三） - DataFrame和SQL]]></title>
+        <id>https://lostlau.github.io/post/pyspark_tuto3/</id>
+        <link href="https://lostlau.github.io/post/pyspark_tuto3/">
+        </link>
+        <updated>2022-06-23T16:19:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>pyspark学习的第三篇会介绍DataFrame和其相关的操作运用。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>pyspark学习的第三篇会介绍DataFrame和其相关的操作运用。</p>
+]]></content>
+    </entry>
+</feed>

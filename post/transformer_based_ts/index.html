@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Lost Blog
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="刘蔚南">
+<meta name="description" content="Un jour, j&#39;ai eu son âge.">
+<meta name="keywords" content="lost,刘蔚南">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://lostlau.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+                                <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCPT77VC7L"></script>
+                                <script>
+                                    window.dataLayer = window.dataLayer || [];
+
+                                    function gtag() {
+                                        dataLayer.push(arguments);
+                                    }
+                                    gtag('js', new Date());
+                                    gtag('config', 'G-FCPT77VC7L');
+                                </script>
+                                
+                                    <script type="text/javascript">
+                                        var _hmt = _hmt || [];
+                                        (function() {
+                                            var hm = document.createElement("script");
+                                            hm.src = "https://hm.baidu.com/hm.js?46a94dcfca01e26a201e1f91f69a452f";
+                                            var s = document.getElementsByTagName("script")[0];
+                                            s.parentNode.insertBefore(hm, s);
+                                        })();
+                                    </script>
+                                    
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://lostlau.github.io">
+                    Lost Blog
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于我
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        文章
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签分类
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://lostlau.github.io">
+                            Lost Blog
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于我
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            文章
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签分类
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                transformer-based时序领域算法总结
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Lost Blog
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2023-03-15</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">12.1
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">3240</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://lostlau.github.io/tag/TPwG4PQ5m/">机器学习</a>
+                                
+                                <a href="https://lostlau.github.io/tag/qadVYOD8zK/">时间序列</a>
+                                
+                                <a href="https://lostlau.github.io/tag/BRHDZ2fgbY/">transformer</a>
+                                
+                                <a href="https://lostlau.github.io/tag/L8KbpATcdL/">神经网络</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://lostlau.github.io/post-images/transformer_based_ts.jpeg" alt="">
+                          
+                        <div class="post-content">
+                            <p>由于工作原因，近段时间对时序领域的机器学习任务（forecasting、regression、classification、clustering、segmentation、anomaly detection等）有较多接触，同时我也对这一领域有较大的兴趣，于是开个帖子作为记录。本篇主要记录基于transformer的神经网络算法，它们适用的大多数任务场景为时序的forecasting。<strong><font color=#e54b4b size=3> 本篇将会持续更新。</font></strong></p>
+<!-- more -->
+<h1 id="vanilla-transformer">Vanilla Transformer</h1>
+<p>原文：<a href="https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf">Attention is All You Need</a><br>
+经典的出发点，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>Q</mi><mo separator="true">,</mo><mi>K</mi><mo separator="true">,</mo><mi>V</mi></mrow><annotation encoding="application/x-tex">Q,K,V</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span></span></span></span>，原始点积attention出名的地方。它是针对机器翻译问题而提出的网络结构。<br>
+这里就不过多的介绍了，网上好的解读非常多，比如<a href="https://jalammar.github.io/illustrated-transformer/">这儿</a>。</p>
+<h1 id="sparse-transformer">Sparse Transformer</h1>
+<p>原文：<a href="https://arxiv.org/pdf/1904.10509v1.pdf">Generating Long Sequences with Sparse Transformers</a><br>
+改造中间的attention层，提升计算效率，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">O</mi><mo>(</mo><msup><mi>L</mi><mn>2</mn></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">\Omicron(L^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">O</span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">L</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>降低到了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">O</mi><mo>(</mo><mi>L</mi><msqrt><mi>L</mi></msqrt><mo>)</mo></mrow><annotation encoding="application/x-tex">\Omicron(L\sqrt{L})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.176665em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">O</span></span><span class="mopen">(</span><span class="mord mathdefault">L</span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9266650000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathdefault">L</span></span></span><span style="top:-2.886665em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.11333499999999996em;"><span></span></span></span></span></span><span class="mclose">)</span></span></span></span>。有两种模式：strided和fixed。<br>
+<img src="https://lostlau.github.io/post-images/transformer-based/sparse_transformer.png" alt="" width="80%" loading="lazy"><br>
+strided是只关注当前位置的前<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mi>L</mi></msqrt></mrow><annotation encoding="application/x-tex">\sqrt{L}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.11333499999999996em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9266650000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathdefault">L</span></span></span><span style="top:-2.886665em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.11333499999999996em;"><span></span></span></span></span></span></span></span></span>个，相当于移动窗口；fixed是固定窗口，每第<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mi>L</mi></msqrt></mrow><annotation encoding="application/x-tex">\sqrt{L}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.11333499999999996em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9266650000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathdefault">L</span></span></span><span style="top:-2.886665em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.11333499999999996em;"><span></span></span></span></span></span></span></span></span>个中的某个位置只关注当前<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mi>L</mi></msqrt></mrow><annotation encoding="application/x-tex">\sqrt{L}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.11333499999999996em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9266650000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathdefault">L</span></span></span><span style="top:-2.886665em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.11333499999999996em;"><span></span></span></span></span></span></span></span></span>个中且不超过当前位置（在该位置左边）的这些位置。</p>
+<h1 id="reformer">Reformer</h1>
+<p>原文：<a href="https://openreview.net/forum?id=rkgNKkHtvB">Reformer: The Efficient Transformer</a><br>
+属于原始transformer的改造。在原始transformer的基础上，提升了计算效率，主要是以下两点：</p>
+<ul>
+<li>基于局部敏感性哈希算法(Locality Sensitive Hashing, LSH)的attention机制替代经典点积(dot-production) attention机制，将计算复杂度从<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">O</mi><mo>(</mo><msup><mi>L</mi><mn>2</mn></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">\Omicron(L^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">O</span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">L</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>降低到了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">O</mi><mo>(</mo><mi>L</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\Omicron(L)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">O</span></span><span class="mopen">(</span><span class="mord mathdefault">L</span><span class="mclose">)</span></span></span></span>。从其实验结果来看，任务预测效果与原始attention相差不大。</li>
+<li>使用可逆(Reversible)残差连接来代替传统残差连接，好处是在前向过程中前<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">N-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>层的中间值和输出都不需要存储了，只保留最后一层的输出，极大降低了内存消耗。</li>
+</ul>
+<h1 id="informer">Informer</h1>
+<p>原文：<a href="https://ojs.aaai.org/index.php/AAAI/article/view/17325">Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting</a><br>
+针对长时时序预测LSTF(long sequence time-series forecasting)，对transformer进行改造。作者认为长时时序预测模型需要两方面的能力：</p>
+<ol>
+<li>卓越的长时序列的特征表示能力</li>
+<li>高效的针对超长序列出入参的操作</li>
+</ol>
+<p>作者认为transformer在1方面有不错的能力，所以主要针对第2个方面（即计算效率）对transformer进行改进。改进包括以下3个点：</p>
+<ul>
+<li>提出ProbSparse self-attention机制来替代原始self-attention，时间复杂度和内存消耗都降为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">O</mi><mo>(</mo><mi>L</mi><mtext>log</mtext><mi>L</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\Omicron(L\text{log}L)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">O</span></span><span class="mopen">(</span><span class="mord mathdefault">L</span><span class="mord text"><span class="mord">log</span></span><span class="mord mathdefault">L</span><span class="mclose">)</span></span></span></span>。用KL-divergence去度量每个<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>softmax</mtext><mo>(</mo><mi>q</mi><msup><mi>K</mi><mi>T</mi></msup><mi mathvariant="normal">/</mi><msqrt><mi>d</mi></msqrt><mo>)</mo></mrow><annotation encoding="application/x-tex">\text{softmax}(qK^T/\sqrt{d})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.18222em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">softmax</span></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span></span></span></span></span></span></span></span><span class="mord">/</span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.93222em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathdefault">d</span></span></span><span style="top:-2.89222em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.10777999999999999em;"><span></span></span></span></span></span><span class="mclose">)</span></span></span></span>与均匀分布(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mi>L</mi></mfrac><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><mfrac><mn>1</mn><mi>L</mi></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{L},\dots,\frac{1}{L}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">L</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">L</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>)的差异，只把差异最大的前<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>log</mtext><mi>L</mi></mrow><annotation encoding="application/x-tex">\text{log}L</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord text"><span class="mord">log</span></span><span class="mord mathdefault">L</span></span></span></span>个queries挑出来，其他queries置0，再用转换后的稀疏query矩阵<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mover accent="true"><mi>Q</mi><mo>ˉ</mo></mover></mrow><annotation encoding="application/x-tex">\bar{Q}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0145499999999998em;vertical-align:-0.19444em;"></span><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8201099999999999em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">Q</span></span></span><span style="top:-3.25233em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.16666em;">ˉ</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span></span></span>来计算self-attention（还是原始点积计算）。</li>
+<li>提出self-attention蒸馏操作来优先考虑占主导地位的attention分数，用于layers stacking中，极大降低内存消耗。使用convolution layer和maxpooling连接各个self-attention，降低隐层特征表示的维度。<img src="https://lostlau.github.io/post-images/transformer-based/informer_encoder.jpg" alt="" loading="lazy"></li>
+<li>提出生成式decoder来获得长序列输出。通过一次前向计算，进行多步预测来预测长序列的所有输出，decoder的输入也相应的需要调整。</li>
+</ul>
+<p>原文写得不是太好读，细节的解读推荐参考<a href="https://zhuanlan.zhihu.com/p/467523291">这篇</a>。</p>
+<h1 id="autoformer">Autoformer</h1>
+<p>原文：<a href="https://openreview.net/pdf?id=I55UqU-M11y">Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting</a><br>
+仍然是解决长时时序预测问题，针对经典transformer的缺陷：</p>
+<ol>
+<li>难以捕捉复杂的时序点上的内在模式和依赖关系</li>
+<li>point-wise的attention的计算复杂度阻碍了长序列特征表示的学习</li>
+</ol>
+<p>提出了autoformer框架，核心是把原始序列进行分解（按经典时序分解：trend+seasonality），然后rolling变成很多子序列，从而把特征表示学习中的信息整合过程的颗粒度放到series-level（而非point-wise）。特征表示的学习使用auto-correletion机制来实现。所以，核心创新是以下两点：</p>
+<ul>
+<li>序列的分解模块。分解不在原始序列上直接分解，而是把分解放到神经网络里，作为一个block，动态的学习其分解模式。该模块中，通过移动平均获得趋势项，然后原序列减去趋势项得到季节项。季节项是核心要关注学习表示的项，趋势项在decoder里最终使用线性自回归来学习weights。</li>
+<li>auto-correlation机制。受随机过程启发，作者定义原序列和滞后序列的相关性系数。选出top K个相关性最好的滞后序列的滞后时间，然后借助softmax将这K个相关性score转换成概率，把这些概率再和其对应的原滞后序列进行加权求和，完成信息聚合。滞后相关性系数的计算作者根据维纳-辛钦定理借助FFT来计算，降低了计算复杂度。</li>
+</ul>
+<p>整体框架结构如下图：<br>
+<img src="https://lostlau.github.io/post-images/transformer-based/autoformer_frame.jpg" alt="" width="70%" loading="lazy"><br>
+具体细节的解读，推荐<a href="https://zhuanlan.zhihu.com/p/472624073">这篇</a>。</p>
+<h1 id="pyraformer">Pyraformer</h1>
+<p>原文：<a href="https://openreview.net/pdf?id=0EXmFzUn5I">Pyraformer: Low-Complexity Pyramidal Attention for Long-Range Time Series modeling and forecasting</a><br>
+设计的初衷并不只局限于长时时序预测，同样对短时时序预测和分类、非监督任务也适用。其改造的核心目的也是在增强计算效率的同时使得时序间的依赖关系能够被更好的表示（反映在预测效果上就是更好）。<br>
+整体框架结构如下图：<br>
+<img src="https://lostlau.github.io/post-images/transformer-based/pyraformer_frame.jpg" alt="" loading="lazy"><br>
+三个核心改造要点：</p>
+<ul>
+<li>PAM (pyramidal attention module)。将原始时间序列按照给定的步长进行聚合（聚合方式参照后续CSCM模块），将时间跨度更长的信息提炼出来，比如原始是按小时的信息，向上提炼可得到按日的信息，按月的信息，按年的信息。直观的可见下图，最下层就是原始时序，越往上就是时间跨度越大的聚合信息，此处是设定的每两个时间跨度一聚合。层与层之间称为inter-scale，同一层node与node之间称为intra-scale，抽象了不同时间跨度的信息聚合，所以作者称其是multi-resolution（多分辨率）。在此结构基础上提出了attention的新型表达式，只关注与当前节点相邻的节点，即inter-scale下的父节点和子节点，intra-scale中的临近节点（多少步以内算临近是预设参数）。经典点积attention计算中只考虑有上述“相邻关系”的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>Q</mi><mo>−</mo><mi>K</mi></mrow><annotation encoding="application/x-tex">Q-K</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">K</span></span></span></span> pair的计算，使得其计算复杂度极大降低（<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">O</mi><mo>(</mo><mi>L</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\Omicron(L)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathrm">O</span></span><span class="mopen">(</span><span class="mord mathdefault">L</span><span class="mclose">)</span></span></span></span>）。<br>
+<img src="https://lostlau.github.io/post-images/transformer-based/pyraformer_pam.png" alt="" width="30%" loading="lazy"></li>
+<li>CSCM (coarser-scale construction module)。这一模块就是去构建金字塔结构，信息的聚合通过卷积实现。最后将金字塔每一层的nodes最后concat起来，再做一个线性转换得到输出。</li>
+<li>预测模块。提出两种策略，一种是直接多步预测，类似于Informer，直接一步预测待预测的所有未来序列点（将PAM中每一层的最后的nodes提取concat起来再过一个全链接层）；第二种是类似经典transformer，采用decoder思想，加入两层attention+mask来进行进行。decoder入参进行mask操作（未来信息点填0），然后PAM。</li>
+</ul>
+<h1 id="fedformer">FEDformer</h1>
+<p>原文：<a href="https://proceedings.mlr.press/v162/zhou22g/zhou22g.pdf">FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting</a><br>
+第一出发点终于不是speed-up Transformer了😅，文章把改进Transformer的表示能力作为了第一动机，认为原始的attention无法很好的捕捉全局层面的特征，于是提出了两个思路来优化：</p>
+<ol>
+<li>trend+seasonality分解，但是是基于Kologrov-Smirnov distribution test的思路。</li>
+<li>结合傅立叶变换，将频域的信息融入进attention，强化对时序内在依赖的捕捉。</li>
+</ol>
+<p>在以上改进的方法上，同时发现计算复杂度也得到了降低，最终实现预测效果和计算效率的同步加强（总感觉很强行😄）。整个网络结构如下，和autoformer基本差不多，除了核心的两个block：attention block和decomp block改为新的方式（即frequency enhanced block和MOE decomp）。</p>
+<figure data-type="image" tabindex="1"><img src="https://lostlau.github.io/post-images/transformer-based/fedformer_frame.png" alt="" loading="lazy"></figure>
+<ul>
+<li>FEB(frequency enhanced block)。见下图，先过一个linear层，接下来做傅立叶变换(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="script">F</mi></mrow><annotation encoding="application/x-tex">\mathcal{F}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span></span></span></span>)。然后敲黑板，此处sampling就是随机采样M个（预设的）分解后的信号模式（计算复杂度降低的关键）。<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>D</mi></mrow><annotation encoding="application/x-tex">D</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span></span></span></span>表示多变量时序场景对应的时序特征数量。蓝色块的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi></mrow><annotation encoding="application/x-tex">R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span>是可学习的参数weight，这一步线性转换目的是考虑特征间的相关性，将interaction纳入到特征表示。之后填0再逆向傅立叶变换，得到最终输出。</li>
+</ul>
+<figure data-type="image" tabindex="2"><img src="https://lostlau.github.io/post-images/transformer-based/fedformer_feb.png" alt="" width="50%" loading="lazy"></figure>
+<ul>
+<li>FEA(frequency enhanced attention)。见下图，流程同经典的cross-attention，只不过是在频域的随机采样上进行的。</li>
+</ul>
+<figure data-type="image" tabindex="3"><img src="https://lostlau.github.io/post-images/transformer-based/fedformer_fea.jpg" alt="" width="50%" loading="lazy"></figure>
+<ul>
+<li>MOE decomp。采用了一些随机时间窗口去做AvgPooling，然后将这些产生的结果加权得到最终trend，加权平均的权重是可以学习的参数。</li>
+</ul>
+<p>以上是基于傅立叶变换分解的attention block，文章也提出了基于小波变换分解的attention block，具体细节有所不同（时频域同时考虑），但是high-level的思想是一样的，就不展开了。</p>
+<h1 id="etsformer">ETSformer</h1>
+<p>原文：<a href="https://arxiv.org/abs/2202.01381">ETSformer: Exponential Smoothing Transformers for Time-series Forecasting</a><br>
+借鉴Autoformer的思路（同样也有和FEDformer相近的思想），将原始时序做分解，然后在关注的序列上进行attention处理。目的也是为了更高效的捕捉时序间依赖性，提告预测精度。其核心创新主要是以下两点：</p>
+<ol>
+<li>时序分解参照了Holt-Winter's加性方法，将时序分解成了三个成分：level+growth+seasonality</li>
+<li>将移动平滑的思想融入到了针对growth项的提炼里（ES Attention），其背后的intuition是离当前时间点越近的前序时间点应该有更大的注意力权重，注意力权重应随时间点的前移而逐渐衰退。</li>
+</ol>
+<p>整体如下图，左边是encoder，将原始时序先通过卷积层进行embedding，然后通过FA提取seasonality，将除seasonality的部分通过(MH-)ESA继续进行growth的提取，剩下的部分通过Holt-Winter's里的方法（还是指数平滑的思想）生成level。右边是decoder，这儿没有原始输入，而是用encoder分解得到的seasonality和growth作为输入，来生成（重新组合成）未来的预测。图中展示了N个stack叠加的情况，即分解N层再重新聚合N层的场景。</p>
+<figure data-type="image" tabindex="4"><img src="https://lostlau.github.io/post-images/transformer-based/etsformer_frame.jpg" alt="" width="90%" loading="lazy"></figure>
+<p>FA和ESA的逻辑：</p>
+<ul>
+<li>Feature Attention(FA)。这个block主要就是根据傅立叶变换寻找top K个最强的子信号然后重组构成seasonality。</li>
+<li>ES Attention。我的理解是这个block将原始的attention中的attention weight矩阵表示成了基于衰退系数<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span></span></span></span>和时间滞后步数的一个指数移动平均系数矩阵（见原文附录A.1）。</li>
+</ul>
+<h1 id="non-stationary-transformer">Non-stationary Transformer</h1>
+<p>原文：<a href="https://openreview.net/pdf?id=ucNDIDRNjjv">Non-stationary Transformers: Exploring the Stationarity in Time Series Forecasting</a><br>
+这篇作者的出发点更多的是借鉴了传统统计时序分析的视角，以平稳性问题为切入口，将针对非平稳性的处理纳入到传统transformer里。该框架在面对非平稳序列时有两个显著的优势：</p>
+<ol>
+<li>能够通过平稳化方法之后针对平稳序列（i.e.在不同的时间窗口间子序列都有相近的统计性质）学习得到良好的预测效果</li>
+<li>有效counter了过平稳化问题（由于平稳化处理导致的attention提取的时序依赖关系不显著问题）</li>
+</ol>
+<p>为了达到以上效果，该网络的设计框架可见下图，主要有以下两个核心要点：</p>
+<ul>
+<li>平稳化过程的设计。首先通过归一化将原始时序input都scale到<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="script">N</mi><mo>(</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">\mathcal{N}(0,1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.14736em;">N</span></span><span class="mopen">(</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span>，然后才是通常的transformer操作（embedding+encoder+decoder等），最后还有一个反归一化处理，即将开始归一化得到均值方差反作用在transformer的出参上，之后才是真正的output。</li>
+<li>De-stationary Attention。这个block替代原始的attention，目的是在平稳化后的序列上进行attention操作时能够加入原始非平稳序列时序间蕴含的相互依赖，从而减缓过平稳化问题。设计得比较巧妙，作者首先非常宽松的证明了归一化序列的attention distribution和原始序列的attention distribution（i.e. attention之后再softmax生成的那个权重）之间的关系，建立等价关系还需引入两个因子（de-stationary factors），即有了这两个因子后通过归一化序列的attention权重可以近似表达出原序列的attention权重。那么如果得到这两个因子具体的值呢？作者提出通过一个单独的MPL-block去学习它们（图中Projector）。</li>
+</ul>
+<figure data-type="image" tabindex="5"><img src="https://lostlau.github.io/post-images/transformer-based/nonstationarytransformer_frame.png" alt="" width="90%" loading="lazy"></figure>
+<h1 id="timesnet">TimesNet</h1>
+<p>To Be Continued..</p>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li><a href="#vanilla-transformer">Vanilla Transformer</a></li>
+<li><a href="#sparse-transformer">Sparse Transformer</a></li>
+<li><a href="#reformer">Reformer</a></li>
+<li><a href="#informer">Informer</a></li>
+<li><a href="#autoformer">Autoformer</a></li>
+<li><a href="#pyraformer">Pyraformer</a></li>
+<li><a href="#fedformer">FEDformer</a></li>
+<li><a href="#etsformer">ETSformer</a></li>
+<li><a href="#non-stationary-transformer">Non-stationary Transformer</a></li>
+<li><a href="#timesnet">TimesNet</a></li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Lost Blog</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://lostlau.github.io/post/transformer_based_ts/">https://lostlau.github.io/post/transformer_based_ts/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lostlau.github.io/post/transformer_based_ts/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lostlau.github.io/post/transformer_based_ts/&sharesource=qzone&title=transformer-based时序领域算法总结&pics=https://lostlau.github.io/images/avatar.png?v=1753006403576&summary=&lt;p&gt;由于工作原因，近段时间对时序领域的机器学习任务（forecasting、regression、classification、clustering、segmentation、anomaly detection等）有较多接触，同时我也对这一领域有较大的兴趣，于是开个帖子作为记录。本篇主要记录基于transformer的神经网络算法，它们适用的大多数任务场景为时序的forecasting。&lt;strong&gt;&lt;font color=#e54b4b size=3&gt; 本篇将会持续更新。&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
+"><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://lostlau.github.io/post/transformer_based_ts/&sharesource=weibo&title=transformer-based时序领域算法总结 + " - " + &lt;p&gt;由于工作原因，近段时间对时序领域的机器学习任务（forecasting、regression、classification、clustering、segmentation、anomaly detection等）有较多接触，同时我也对这一领域有较大的兴趣，于是开个帖子作为记录。本篇主要记录基于transformer的神经网络算法，它们适用的大多数任务场景为时序的forecasting。&lt;strong&gt;&lt;font color=#e54b4b size=3&gt; 本篇将会持续更新。&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
+&pic="https://lostlau.github.io/images/avatar.png?v=1753006403576 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://lostlau.github.io/tag/TPwG4PQ5m/">#
+                    机器学习
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/qadVYOD8zK/">#
+                    时间序列
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/BRHDZ2fgbY/">#
+                    transformer
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/L8KbpATcdL/">#
+                    神经网络
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://lostlau.github.io/post/prompting-engineering/">
+                                                                                            Prompting Engineering
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://lostlau.github.io/post/pyspark_tuto3/">
+                                                                                                    PySpark学习（三） - DataFrame和SQL
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                
+                                                                                                            
+                                                                                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: 'IDwm6MbiTzz7kIRCFR8CK7G4-9Nh9j0Va',
+        appKey: 'ghgXCbobWxBYTG3VWr1uTRpF',
+        pageSize: 10,
+        avatar: 'mp',
+        placeholder: '水平一般，能力有限，能回答的博主尽量回答:)',
+        visitor: true,
+        highlight: true,
+        recordIP: false,
+    })
+</script>
+                                                                                                                    
+                    </article>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        Created by <a href="https://github.com/lostlau/lostlau.github.io" target="_blank">Lostlau</a>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Lost Blog &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank">
+                                                Chic
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1753006403576);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

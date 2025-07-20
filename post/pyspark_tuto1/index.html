@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Lost Blog
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="刘蔚南">
+<meta name="description" content="Un jour, j&#39;ai eu son âge.">
+<meta name="keywords" content="lost,刘蔚南">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://lostlau.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+                                <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCPT77VC7L"></script>
+                                <script>
+                                    window.dataLayer = window.dataLayer || [];
+
+                                    function gtag() {
+                                        dataLayer.push(arguments);
+                                    }
+                                    gtag('js', new Date());
+                                    gtag('config', 'G-FCPT77VC7L');
+                                </script>
+                                
+                                    <script type="text/javascript">
+                                        var _hmt = _hmt || [];
+                                        (function() {
+                                            var hm = document.createElement("script");
+                                            hm.src = "https://hm.baidu.com/hm.js?46a94dcfca01e26a201e1f91f69a452f";
+                                            var s = document.getElementsByTagName("script")[0];
+                                            s.parentNode.insertBefore(hm, s);
+                                        })();
+                                    </script>
+                                    
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://lostlau.github.io">
+                    Lost Blog
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于我
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        文章
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签分类
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://lostlau.github.io">
+                            Lost Blog
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于我
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            文章
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签分类
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                PySpark学习（一） - 学习环境的配置
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Lost Blog
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2022-06-20</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">7.9
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">1817</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://lostlau.github.io/tag/spark/">Spark</a>
+                                
+                                <a href="https://lostlau.github.io/tag/infotech/">IT</a>
+                                
+                                <a href="https://lostlau.github.io/tag/bigdata/">大数据工程</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://lostlau.github.io/post-images/pyspark_tuto1.png" alt="">
+                          
+                        <div class="post-content">
+                            <p>之前有做过一些大数据工程的项目，由于spark不是我的技术栈范围，所以取巧用了hive-udf编译的python脚本。想来spark是未来数据处理的趋势，所以最近开始学习pyspark，这个系列的博客将会边学边记录，可能会比较囫囵吞枣。第一篇会记录pyspark学习所需要的环境配置。</p>
+<!-- more -->
+<h2 id="pyspark环境设置">PySpark环境设置</h2>
+<p>一般的普罗大众想学习Spark，很难自己去配置好整个Spark集群和套件等相关运行环境，这样成本太高，入门难度也太大。受益于如今容器化技术（比如Docker）的发展，学习新技术的环境配置门槛被大幅降低，我们可以通过官方社群中所提供的已经预配置好的Docker镜像（Image）来模拟整个学习研究环境，我们只需要专注于想学的技术核心本身，而不用花大把精力去搞研究环境的搭建。</p>
+<p>对于对容器化技术不了解的朋友，可以把它简单的理解为一个和本机相对隔离的环境，在这个环境里使用的工具包或者跑的程序的依赖工具也是用的这个环境里配置好的，而不用使用这个环境外的（比如主机自带的）。这样可以解决不同程序所需要的依赖的同一个package的版本不同的问题，使得耦合性很低，在不用的环境里运行不同的程序或者做不同的研究，相互不影响。就像在做开发的时候在pycharm里面每个project都需要单独配置一个虚拟环境，道理是类似的。</p>
+<p>同样的，PySpark作为一个python中蓬勃向上的大数据工程类工具package，Docker Hub也有其对应的镜像。为了能方便在Jupyter中使用，Jupyter Docker Stacks提供了pyspark-notebook的Docker镜像。其实我也是第一次接触Jupyter Docker Stacks，我看了他们的<a href="https://jupyter-docker-stacks.readthedocs.io/en/latest/">文档</a>，发现贼好用，相当于jupyter为了教学方面考虑，提供了一些重要技术工具的研究学习环境，开源共享在Docker Hub上面。目前提供的镜像还不是很多，比较有用的是：科学计算scipy相关的，神经网络tensorflow相关的和分布式计算pyspark相关的。</p>
+<p>言归正传，要运行docker镜像，先需要下载一个docker，Mac电脑的可以直接通过homebrew安装（需要APP客户端的记得带<code>--cask</code>，不然就只能命令行操作了）。有了docker之后，cd到对应的研究文件夹下面，运行如下命令行指令可以运行jupyter-pyspark镜像。</p>
+<pre><code class="language-bash">$ docker run -it -p 9000:8888 -v $PWD:/home/jovyan jupyter/pyspark-notebook
+</code></pre>
+<p>上述指令<code>-p 9000:8888</code>代表将送往localhost:9000的通讯转送至Docker container的8888端口(也就是这个容器里Jupyter notebook的地址）；而<code>-v $PWD:/home/jovyan</code>代表将本机当前文件夹挂载至Docker container内的路径<code>/home/jovyan</code>上。这儿9000可以改成其他的你想要的端口号，但是我不建议改成8888，因为8888是默认的jupyter notebook的端口号，你如果想用本机环境运行jupyter notebook的话，就需要在启动jupyter的时候单独指定其他的端口号防止跳到pyspark-notebook环境里去。jovyan是Jupyter Docker Stack的预设使用者名字，所以按它预设的文件夹名称，不用过多在意。如果想给这个容器定制命名为pyspark_tuto的话可以在<code>run</code>后面加上<code>--name=&quot;pyspark_tuto&quot;</code>来实现。同时，如果之后想查看Spark UI，需要将4040端口也映射到本地，即在<code>-p 9000:8888</code>后面加上<code> -p 4040:4040</code>（前面那个4040可以换成你想要的端口号）。</p>
+<p>对于已经创建好的docker container如果想增加端口映射的话，可以参考这篇《<a href="https://www.jianshu.com/p/6aefed2be1c7">Mac下 Docker 动态添加端口</a>》。</p>
+<p>上述运行成功的话，那么可以在Docker客户端里看到对应的容器：<br>
+<img src="https://lostlau.github.io/post-images/pyspark/1/docker_1.png" alt="" width="100%" loading="lazy"></p>
+<p>在浏览器里面输入localhost:9000就可以打开jupyter-lab的界面，如果需要token，那么可以在日志log里面找到：<br>
+<img src="https://lostlau.github.io/post-images/pyspark/1/docker_2.png" alt="" width="100%" loading="lazy"></p>
+<h2 id="pyspark基本操作">PySpark基本操作</h2>
+<p>以下介绍一些基本的pyspark语法，首先载入packages依赖</p>
+<!-- more -->
+<!-- more -->
+<pre><code class="language-python">import pandas as pd
+import numpy as np
+
+from pyspark.sql import SparkSession
+
+import warnings
+warnings.filterwarnings('ignore')
+</code></pre>
+<h3 id="pyspark模块基本概念">PySpark模块基本概念</h3>
+<p>pyspark里最核心的模块是SparkContext（简称sc）,最重要的数据载体是RDD。</p>
+<p>SparkContext是spark的主要切入点，而RDD是主要的API，所以需要通过sparkcontext来创建和操作RDD。对于不同的API，我们需要使用不同的context，比如对于streming我们需要使用StreamingContext；对于sql，使用sqlContext；对于hive，使用hiveContext。不过目前业界普遍使用DataSet和DataFrame的API逐渐成为标准API，所以在spark2.0中，引入SparkSession作为DataSet和DataFrame API的切人点。其实质也是sqlContext和hiveContext的组合（streamingContext还未实现），所以在sqlContext和hiveContext上可用的API在SparkSession上同样可以使用。SparkSession内部封装了SparkContext，计算上其实也是由SparkContext完成的。</p>
+<pre><code class="language-python">spark = SparkSession.builder.getOrCreate()
+</code></pre>
+<h3 id="读取数据">读取数据</h3>
+<p>以下使用样例数据https://www.kaggle.com/aashita/nyt-comments</p>
+<p>可以采用两种方法读取，一种是spark自带的read，另一种是通过转换pandas.DataFrame的方式</p>
+<pre><code class="language-python">df = spark.read.option('header',True).option('escape','&quot;').option('inferSchema',True).csv(&quot;archive/CommentsFeb2017.csv&quot;)
+
+</code></pre>
+<pre><code class="language-python">df.printSchema()
+</code></pre>
+<pre><code>root
+ |-- approveDate: string (nullable = true)
+ |-- articleID: string (nullable = true)
+ |-- articleWordCount: string (nullable = true)
+ |-- commentBody: string (nullable = true)
+ |-- commentID: string (nullable = true)
+ |-- commentSequence: string (nullable = true)
+ |-- commentTitle: string (nullable = true)
+ |-- commentType: string (nullable = true)
+ |-- createDate: string (nullable = true)
+ |-- depth: string (nullable = true)
+ |-- editorsSelection: string (nullable = true)
+ |-- inReplyTo: double (nullable = true)
+ |-- newDesk: string (nullable = true)
+ |-- parentID: string (nullable = true)
+ |-- parentUserDisplayName: string (nullable = true)
+ |-- permID: string (nullable = true)
+ |-- picURL: string (nullable = true)
+ |-- printPage: integer (nullable = true)
+ |-- recommendations: integer (nullable = true)
+ |-- recommendedFlag: string (nullable = true)
+ |-- replyCount: string (nullable = true)
+ |-- reportAbuseFlag: string (nullable = true)
+ |-- sectionName: string (nullable = true)
+ |-- sharing: integer (nullable = true)
+ |-- status: string (nullable = true)
+ |-- timespeople: string (nullable = true)
+ |-- trusted: string (nullable = true)
+ |-- updateDate: string (nullable = true)
+ |-- userDisplayName: string (nullable = true)
+ |-- userID: double (nullable = true)
+ |-- userLocation: string (nullable = true)
+ |-- userTitle: string (nullable = true)
+ |-- userURL: string (nullable = true)
+ |-- typeOfMaterial: string (nullable = true)
+</code></pre>
+<pre><code class="language-python">import pandas as pd
+import numpy as np
+df_pd = pd.read_csv(&quot;archive/CommentsFeb2017.csv&quot;)
+df_prime = spark.createDataFrame(df_pd.astype(str))
+
+</code></pre>
+<pre><code class="language-python">df_prime.printSchema()
+</code></pre>
+<pre><code>root
+ |-- approveDate: string (nullable = true)
+ |-- articleID: string (nullable = true)
+ |-- articleWordCount: string (nullable = true)
+ |-- commentBody: string (nullable = true)
+ |-- commentID: string (nullable = true)
+ |-- commentSequence: string (nullable = true)
+ |-- commentTitle: string (nullable = true)
+ |-- commentType: string (nullable = true)
+ |-- createDate: string (nullable = true)
+ |-- depth: string (nullable = true)
+ |-- editorsSelection: string (nullable = true)
+ |-- inReplyTo: string (nullable = true)
+ |-- newDesk: string (nullable = true)
+ |-- parentID: string (nullable = true)
+ |-- parentUserDisplayName: string (nullable = true)
+ |-- permID: string (nullable = true)
+ |-- picURL: string (nullable = true)
+ |-- printPage: string (nullable = true)
+ |-- recommendations: string (nullable = true)
+ |-- recommendedFlag: string (nullable = true)
+ |-- replyCount: string (nullable = true)
+ |-- reportAbuseFlag: string (nullable = true)
+ |-- sectionName: string (nullable = true)
+ |-- sharing: string (nullable = true)
+ |-- status: string (nullable = true)
+ |-- timespeople: string (nullable = true)
+ |-- trusted: string (nullable = true)
+ |-- updateDate: string (nullable = true)
+ |-- userDisplayName: string (nullable = true)
+ |-- userID: string (nullable = true)
+ |-- userLocation: string (nullable = true)
+ |-- userTitle: string (nullable = true)
+ |-- userURL: string (nullable = true)
+ |-- typeOfMaterial: string (nullable = true)
+</code></pre>
+<h3 id="基于dataframe操作数据">基于DataFrame操作数据</h3>
+<pre><code class="language-python">df.select([&quot;articleID&quot;,&quot;printPage&quot;]).limit(1).collect()
+</code></pre>
+<pre><code>[Row(articleID='58927e0495d0e0392607e1b3', printPage=12)]
+</code></pre>
+<pre><code class="language-python">df.createOrReplaceTempView(&quot;comment&quot;)
+</code></pre>
+<pre><code class="language-python">spark.sql(&quot;select commentBody, printPage from comment limit 5&quot;).show(truncate=True,vertical=False)
+</code></pre>
+<pre><code>+--------------------+---------+
+|         commentBody|printPage|
++--------------------+---------+
+|ANY anti Trump pr...|       12|
+|I'll not watch th...|       12|
+|NFL's going to do...|       12|
+|I'm continually a...|       12|
+|Personally, I do ...|       12|
++--------------------+---------+
+</code></pre>
+<pre><code class="language-python">spark.sql(&quot;select commentBody, printPage from comment limit 5&quot;).toPandas()
+</code></pre>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>commentBody</th>
+      <th>printPage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>ANY anti Trump propaganda from Gaga and my TV ...</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>I'll not watch the SB, nor the grammys or osca...</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>NFL's going to do another "in-your-face, Ameri...</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>I'm continually amazed at the ill-placed crede...</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Personally, I do not want to see any politics ...</td>
+      <td>12</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#pyspark%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE">PySpark环境设置</a></li>
+<li><a href="#pyspark%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C">PySpark基本操作</a>
+<ul>
+<li><a href="#pyspark%E6%A8%A1%E5%9D%97%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">PySpark模块基本概念</a></li>
+<li><a href="#%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE">读取数据</a></li>
+<li><a href="#%E5%9F%BA%E4%BA%8Edataframe%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE">基于DataFrame操作数据</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Lost Blog</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://lostlau.github.io/post/pyspark_tuto1/">https://lostlau.github.io/post/pyspark_tuto1/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lostlau.github.io/post/pyspark_tuto1/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lostlau.github.io/post/pyspark_tuto1/&sharesource=qzone&title=PySpark学习（一） - 学习环境的配置&pics=https://lostlau.github.io/images/avatar.png?v=1753006403576&summary=&lt;p&gt;之前有做过一些大数据工程的项目，由于spark不是我的技术栈范围，所以取巧用了hive-udf编译的python脚本。想来spark是未来数据处理的趋势，所以最近开始学习pyspark，这个系列的博客将会边学边记录，可能会比较囫囵吞枣。第一篇会记录pyspark学习所需要的环境配置。&lt;/p&gt;
+"><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://lostlau.github.io/post/pyspark_tuto1/&sharesource=weibo&title=PySpark学习（一） - 学习环境的配置 + " - " + &lt;p&gt;之前有做过一些大数据工程的项目，由于spark不是我的技术栈范围，所以取巧用了hive-udf编译的python脚本。想来spark是未来数据处理的趋势，所以最近开始学习pyspark，这个系列的博客将会边学边记录，可能会比较囫囵吞枣。第一篇会记录pyspark学习所需要的环境配置。&lt;/p&gt;
+&pic="https://lostlau.github.io/images/avatar.png?v=1753006403576 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://lostlau.github.io/tag/spark/">#
+                    Spark
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/infotech/">#
+                    IT
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/bigdata/">#
+                    大数据工程
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://lostlau.github.io/post/pyspark_tuto2/">
+                                                                                            PySpark学习（二） - RDD与共享变量
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://lostlau.github.io/post/raspberrypi_1/">
+                                                                                                    探索树莓派 - Let the hunt begin
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                
+                                                                                                            
+                                                                                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: 'IDwm6MbiTzz7kIRCFR8CK7G4-9Nh9j0Va',
+        appKey: 'ghgXCbobWxBYTG3VWr1uTRpF',
+        pageSize: 10,
+        avatar: 'mp',
+        placeholder: '水平一般，能力有限，能回答的博主尽量回答:)',
+        visitor: true,
+        highlight: true,
+        recordIP: false,
+    })
+</script>
+                                                                                                                    
+                    </article>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        Created by <a href="https://github.com/lostlau/lostlau.github.io" target="_blank">Lostlau</a>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Lost Blog &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank">
+                                                Chic
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1753006403576);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

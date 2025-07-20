@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Lost Blog
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://fastly.jsdelivr.net">
+<meta name="author" content="刘蔚南">
+<meta name="description" content="Un jour, j&#39;ai eu son âge.">
+<meta name="keywords" content="lost,刘蔚南">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://lostlau.github.io/styles/main.css" />
+<link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://fastly.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://fastly.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                        <!--CDN样式-->
+                        <script src="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+                                <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCPT77VC7L"></script>
+                                <script>
+                                    window.dataLayer = window.dataLayer || [];
+
+                                    function gtag() {
+                                        dataLayer.push(arguments);
+                                    }
+                                    gtag('js', new Date());
+                                    gtag('config', 'G-FCPT77VC7L');
+                                </script>
+                                
+                                    <script type="text/javascript">
+                                        var _hmt = _hmt || [];
+                                        (function() {
+                                            var hm = document.createElement("script");
+                                            hm.src = "https://hm.baidu.com/hm.js?46a94dcfca01e26a201e1f91f69a452f";
+                                            var s = document.getElementsByTagName("script")[0];
+                                            s.parentNode.insertBefore(hm, s);
+                                        })();
+                                    </script>
+                                    
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://lostlau.github.io">
+                    Lost Blog
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于我
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        文章
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签分类
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://lostlau.github.io">
+                            Lost Blog
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1753006403576" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于我
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            文章
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签分类
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                PySpark学习（二） - RDD与共享变量
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            Lost Blog
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2022-06-21</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">13.1
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">2969</a></span>
+                                        
+                                            <span class="post-category">&#x5206;&#x7C7B;:
+                                
+                                <a href="https://lostlau.github.io/tag/spark/">Spark</a>
+                                
+                                <a href="https://lostlau.github.io/tag/infotech/">IT</a>
+                                
+                                <a href="https://lostlau.github.io/tag/bigdata/">大数据工程</a>
+                                
+                            </span>
+                                            
+                                                阅读量:
+                                                <span data-hk-page="current"> - </span>
+                                                
+                                    </div>
+                                    
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://lostlau.github.io/post-images/pyspark_tuto2.png" alt="">
+                          
+                        <div class="post-content">
+                            <p>pyspark学习的第二篇会主要介绍RDD和相关的算子。</p>
+<!-- more -->
+<h2 id="rdd的基本概念">RDD的基本概念</h2>
+<p>在上层应用中，每个Spark应用都包含一个驱动程序，该驱动程序运行用户定义的主要功能并在集群上执行各种并行操作。Spark提供的主要数据抽象是RDD（Resilient Distirbuted Dataset: 弹性分布式数据集），它是跨集群节点分区的元素集合，可以执行并行计算。RDD是通过从Hadoop（或其支持的）文件系统中的文件开始并对其进行转换来创建的。用户还可以要求Spark将RDD持久化到内存中，以便在并行操作中有效地重用它。最后，RDD会自动从节点故障中恢复。</p>
+<p>通俗一点的理解，RDD首先是一个dataset，即一个数据集合；然后是一个分布式的（distributed），既能分布储存，也能进行分布式计算；最后还是弹性的（resilient），表示它既能够存在硬盘中也能存在内存里，同时有较强的容错机制。</p>
+<p>Spark中的第二个抽象是可以在并行操作中使用的共享变量。默认情况下，当 Spark 在不同节点上并行运行一个函数作为一组任务时，它会将函数中使用的每个变量的副本发送到每个任务。有时，需要在任务之间或在任务和驱动程序之间共享变量。Spark 支持两种类型的共享变量：广播变量，可用于在所有节点的内存中缓存值，以及累加器，它们是仅“添加”到的变量，例如计数器和总和。</p>
+<pre><code class="language-python">## 载入packages
+from pyspark import SparkContext
+from pyspark import AccumulatorParam
+
+import numpy as np
+import pandas as pd
+</code></pre>
+<h3 id="初始化spark">初始化Spark</h3>
+<p>首先需要<code>SparkContext</code>创建一个和spark集群的连接，这儿我们就是本地集群，同时给应用起名tuto_rdd。</p>
+<pre><code class="language-python">sc = SparkContext('local','tuto_rdd')
+sc
+</code></pre>
+<div>
+    <p><b>SparkContext</b></p>
+    <p><a href="http://localhost:4040">Spark UI</a></p>
+    <dl>
+      <dt>Version <code>v3.2.1</code></dt>
+      <dt>Master <code>local</code></dt>
+      <dt>AppName <code>tuto_rdd</code></dt>
+    </dl>
+</div>
+<h3 id="创建rdd">创建RDD</h3>
+<p>创建RDD有两种途径：</p>
+<ol>
+<li>通过在驱动程序中将已有的集合并行化来创建（parallelized collection）</li>
+<li>通过读取外部分布式数据系统，如HDFS、HBase等</li>
+</ol>
+<pre><code class="language-python">## 并行化集合可以通过SparkContext下的parallelize方法来实现
+data = [1,2,3,4]
+rdd = sc.parallelize(data)
+
+print(f&quot;查看rdd所用分区数量：{rdd.getNumPartitions()}&quot;)
+</code></pre>
+<pre><code>查看rdd所用分区数量：1
+</code></pre>
+<pre><code class="language-python">rdd = sc.parallelize(data,2)
+print(f&quot;查看rdd所用分区数量：{rdd.getNumPartitions()}&quot;)
+print(f&quot;查看rdd各自分区下元素集合：{rdd.glom().collect()}&quot;)
+</code></pre>
+<pre><code>查看rdd所用分区数量：2
+查看rdd各自分区下元素集合：[[1, 2], [3, 4]]
+</code></pre>
+<pre><code class="language-python">## 读取外部数据生成rdd。这儿没有分布式文件系统，就给出个example，不展开了。
+rdd = sc.textFile(&quot;data.txt&quot;)
+</code></pre>
+<h2 id="rdd的操作">RDD的操作</h2>
+<p>RDD支持两种类型的操作（算子）：Transformation（从现有数据集上创建新数据集）和Action（在数据集上进行计算后生成一个值返回给驱动程序）。比如，map将每个数据集元素通过函数传递并返回一个新RDD表示结果，是一种transformatino；而reduce使用某个函数聚合RDD的所有元素并将最终结果返回给驱动程序的操作，是一种action。</p>
+<p>Spark中的所有转换都是惰性的，因为它们不会立即计算结果。相反，他们只记得应用于某些基础数据集（例如文件）的转换。仅当操作需要将结果返回给驱动程序时才计算转换。这种设计使 Spark 能够更高效地运行。默认情况下，每个转换操作后的（应用transformation后的）RDD可能会在我们每次对其运行操作时重新计算。但是，我们也可以使用持久化方法将RDD持久化到内存中，在这种情况下，Spark会将元素保留在集群上，下次查询时能更快地访问它。</p>
+<p>举例：<br>
+如下代码中，前两行的代码并不会在编译的时候立马执行，而是后到最后一行的reduce触发的时候才执行，层层逆向推导。如果想保存lineLengths的结果到内存里，使用<code>persist</code>方法实现。</p>
+<pre><code class="language-python">rdd_orig = sc.parallelize([1,2,3,4])
+rdd_adj = rdd_orig.map(lambda s:s+1)
+rdd_adj.persist()
+res = rdd_adj.reduce(lambda a, b: a + b)
+res
+</code></pre>
+<pre><code>14
+</code></pre>
+<h3 id="transformation算子">transformation算子</h3>
+<p>如下记录一些基本的transformation算子和对应的代码操作</p>
+<pre><code class="language-python">## map:将func函数作用到数据集的每一个元素上，生成一个新的RDD返回
+
+rdd = sc.parallelize([1,2,3,4])
+rdd.map(lambda s:s+1).collect()
+</code></pre>
+<pre><code>[2, 3, 4, 5]
+</code></pre>
+<pre><code class="language-python">## filter:选出所有func返回值为true的元素，生成一个新的RDD返回
+
+rdd = sc.parallelize([1,2,3,4])
+rdd.filter(lambda s:s%3==1).collect()
+</code></pre>
+<pre><code>[1, 4]
+</code></pre>
+<pre><code class="language-python">## flatMap:先执行map的操作，再将所有对象合并为一个对象
+
+rdd = sc.parallelize([[1,2],[3],[4,5]])
+print(rdd.map(lambda l:list(np.array(l)+1)).collect())
+print(rdd.flatMap(lambda l:list(np.array(l)+1)).collect())
+</code></pre>
+<pre><code>[[2, 3], [4], [5, 6]]
+[2, 3, 4, 5, 6]
+</code></pre>
+<pre><code class="language-python">## mapPartitions: 同map，不过是按分区并行的，且func需要是一个iterator-&gt;iterator的映射
+
+def sum_ptt(data_ptt):
+    yield sum(data_ptt)
+
+def plus1_ptt(data_ptt):
+    yield [ele+1 for ele in data_ptt]
+
+rdd1 = sc.parallelize([1,2,3,4],2)    
+print(&quot;if there are 2 partitions：&quot;)
+print(rdd1.mapPartitions(sum_ptt).collect())
+print(rdd1.mapPartitions(plus1_ptt).collect())
+
+print(&quot;&quot;)
+print(&quot;if just 1 partition:&quot;)
+rdd2 = sc.parallelize([1,2,3,4],1)
+print(rdd2.mapPartitions(sum_ptt).collect())
+print(rdd2.mapPartitions(plus1_ptt).collect())
+
+</code></pre>
+<pre><code>if there are 2 partitions：
+[3, 7]
+[[2, 3], [4, 5]]
+
+if just 1 partition:
+[10]
+[[2, 3, 4, 5]]
+</code></pre>
+<pre><code class="language-python">## mapPartitionWithIndex: 同mapPartitions，但是入参带了index，（int，iterator）-&gt;iterator
+
+rdd = sc.parallelize([1,2,3,4],2)
+def sum_ptt_with_id(index,data_ptt):
+    yield sum(data_ptt)
+
+def get_ptt_id(index,data_ptt):
+    yield index
+    
+print(rdd.mapPartitionsWithIndex(sum_ptt_with_id).collect())
+print(rdd.mapPartitionsWithIndex(get_ptt_id).collect())
+</code></pre>
+<pre><code>[3, 7]
+[0, 1]
+</code></pre>
+<pre><code class="language-python">## sample: 随机取样，无法确定具体取样的数量，参数fraction表示每个元素按古典抽样的抽样概率。我觉得用处不大
+
+rdd = sc.parallelize(range(10),2)
+rdd.sample(withReplacement=False,fraction=0.5,seed=2).collect()
+</code></pre>
+<pre><code>[6, 8]
+</code></pre>
+<pre><code class="language-python">## union: 2个rdd取并，不去重
+## intersection：2个rdd取交
+## distinct: 取唯一值
+## cartesian: 取笛卡尔积，返回2个rdd的全组合排列
+
+rdd1 = sc.parallelize([1,2,3,3],2)
+rdd2 = sc.parallelize([2,3,4],3)
+
+print(rdd1.union(rdd2).collect())
+print(rdd1.intersection(rdd2).collect())
+print(rdd1.union(rdd2).distinct().collect())
+print(rdd1.cartesian(rdd2).collect())
+
+</code></pre>
+<pre><code>[1, 2, 3, 3, 2, 3, 4]
+[2, 3]
+[1, 2, 3, 4]
+[(1, 2), (2, 2), (1, 3), (2, 3), (1, 4), (2, 4), (3, 2), (3, 2), (3, 3), (3, 3), (3, 4), (3, 4)]
+</code></pre>
+<pre><code class="language-python">## groupByKey:以第一个元素作为key进行原始rdd进行分组，返回一个新的rdd。(Key,Value)-&gt;(Key, Iterator)。
+
+rdd = sc.parallelize([(&quot;a&quot;,1),(&quot;b&quot;,2),(&quot;a&quot;,3),(&quot;c&quot;,4)],2)
+res = rdd.groupByKey().collect()
+print(&quot;元素a的结果(转化成list展示):&quot;)
+print(list(res[2][1]))
+print(&quot;原始结果&quot;)
+res
+</code></pre>
+<pre><code>元素a的结果(转化成list展示):
+[1, 3]
+原始结果
+
+
+
+
+
+[('b', &lt;pyspark.resultiterable.ResultIterable at 0xffff6743b4f0&gt;),
+ ('c', &lt;pyspark.resultiterable.ResultIterable at 0xffff674b7fa0&gt;),
+ ('a', &lt;pyspark.resultiterable.ResultIterable at 0xffff674b7eb0&gt;)]
+</code></pre>
+<pre><code class="language-python">## reduceByKey：将key相同的键值对，按照Function进行计算。(Key,Value)-&gt;(Key,Value)，func 需要是(V,V)-&gt;V
+
+rdd = sc.parallelize([(&quot;a&quot;,1),(&quot;b&quot;,2),(&quot;a&quot;,3),(&quot;a&quot;,4)],2)
+    
+rdd.reduceByKey(lambda x,y:min(x,y)).collect()
+</code></pre>
+<pre><code>[('b', 2), ('a', 1)]
+</code></pre>
+<pre><code class="language-python">## aggregateByKey：和reduceByKey一样，不过键值对里的“取值”的出入参可以不同。
+
+rdd = sc.parallelize([(&quot;a&quot;,1),(&quot;b&quot;,2),(&quot;a&quot;,3),(&quot;a&quot;,4)],4)
+rdd.aggregateByKey(0,lambda x,y:x+y,lambda x,y:min(x,y)).collect()
+</code></pre>
+<pre><code>[('b', 2), ('a', 1)]
+</code></pre>
+<pre><code class="language-python">## sortByKey: 根据第一个元素排序，然后返回
+
+rdd = sc.parallelize([(&quot;a&quot;,1),(&quot;b&quot;,2),(&quot;c&quot;,3),(&quot;a&quot;,4)],4)
+rdd.sortByKey().collect()
+</code></pre>
+<pre><code>[('a', 1), ('a', 4), ('b', 2), ('c', 3)]
+</code></pre>
+<pre><code class="language-python">## join: 两个数据按照第一个元素作为key的全连接
+
+rdd1 = sc.parallelize([(&quot;a&quot;,1),(&quot;b&quot;,2),(&quot;c&quot;,3),(&quot;a&quot;,4)])
+rdd2 = sc.parallelize([(&quot;a&quot;,10),(&quot;b&quot;,20),(&quot;c&quot;,30)])
+
+rdd1.join(rdd2).collect()
+</code></pre>
+<pre><code>[('b', (2, 20)), ('c', (3, 30)), ('a', (1, 10)), ('a', (4, 10))]
+</code></pre>
+<pre><code class="language-python">## coalesce: 把rdd的分区数量降低至指定数量
+
+rdd = sc.parallelize([1,2,3,4],4)
+rdd.coalesce(2).glom().collect()
+</code></pre>
+<pre><code>[[1, 2], [3, 4]]
+</code></pre>
+<h3 id="action算子">action算子</h3>
+<p>如下记录一些基本的action算子和对应的代码操作</p>
+<pre><code class="language-python">## collect：将rdd里的信息返回成一个list，存在内存里
+
+rdd = sc.parallelize([1,2,3,4])
+rdd.collect()
+</code></pre>
+<pre><code>[1, 2, 3, 4]
+</code></pre>
+<pre><code class="language-python">## reduce: 将rdd中元素两两传递给输入函数，同时产生一个新的值，新产生的值与RDD中下一个元素再被传递给输入函数直到最后只有一个值为止。
+##         相当于输入函数需要满足交换律和结合律（i.e. f(a,b)=f(b,a) &amp; f(f(a,b),c)=f(a,f(b,c))）
+
+rdd = sc.parallelize([1,2,3,4],4)
+rdd.reduce(lambda x,y:min(x,y))
+
+</code></pre>
+<pre><code>1
+</code></pre>
+<pre><code class="language-python">## count: 计数
+
+rdd = sc.parallelize([1,2,3,4],4)
+rdd.count()
+</code></pre>
+<pre><code>4
+</code></pre>
+<pre><code class="language-python">## take: 返回前n个元素
+## takeSample: 随机取n个元素
+## takeOrdered: 先排序再返回前n个元素
+
+rdd = sc.parallelize([1,2,4,3],4)
+print(rdd.take(2))
+print(rdd.takeSample(withReplacement=False,num=2,seed=1))
+print(rdd.takeOrdered(3))
+</code></pre>
+<pre><code>[1, 2]
+[3, 1]
+[1, 2, 3]
+</code></pre>
+<pre><code class="language-python">## coutByKey: 根据key（第一个元素）分组计数
+## countByValue: 根据value（第二个元素）分组计数
+
+rdd = sc.parallelize([(&quot;a&quot;,1),(&quot;b&quot;,2),(&quot;c&quot;,3),(&quot;a&quot;,4)])
+print(rdd.countByKey())
+print(rdd.countByValue())
+</code></pre>
+<pre><code>defaultdict(&lt;class 'int'&gt;, {'a': 2, 'b': 1, 'c': 1})
+defaultdict(&lt;class 'int'&gt;, {('a', 1): 1, ('b', 2): 1, ('c', 3): 1, ('a', 4): 1})
+</code></pre>
+<h2 id="共享变量">共享变量</h2>
+<p>通常情况下，当上述介绍的这些Spark算子在远程集群节点上执行时，它中间调用的函数所使用的变量是在单独副本上工作的，这些变量将被复制到每台机器/节点上，并且对远程机器上的变量的更新不会传播回驱动程序。支持跨任务的通用读写共享变量效率非常低，于是Spark确实为两种常见的使用模式提供了两种有限类型的共享变量：<strong>broadcast variable</strong>和<strong>accumulator</strong>。</p>
+<p><font color=red>p.s.以下只是简单的说一下我对这两个共享变量的理解，我觉得这些主要是在资源调度上的考虑，目前学习中还没有真正弄懂其中的奥妙，可能需要在实际实践中体会</font></p>
+<h3 id="broadcast-variable">broadcast variable</h3>
+<p>简单的说，broadcast variable相当于是在每台机器上缓存的一个只读变量，而不用随任务一起发送它的副本，目的是为了降低通信成本。</p>
+<p>它的使用是通过SparkContext下的broadcast方法去封装原始数据信息:</p>
+<pre><code class="language-python">brdvar = sc.broadcast([1,2,3,4])
+brdvar.value
+</code></pre>
+<pre><code>[1, 2, 3, 4]
+</code></pre>
+<h3 id="accumulator">accumulator</h3>
+<p>accumulator是一个满足交换律和结合律的只“加”变量（此处“加”可视为一个抽象的映射，和reduce算子中的func的所需的特性一样），因此可以有效地并行支持。它可用于实现计数器或求和，Spark原生支持数值类型的accumulator，使用的时候可以自定义添加对新类型的支持。</p>
+<p>accumulator通过SparkContext下的accumulator方法来创建，需要传入一个初始值。accumulator同样满足Spark的惰性计算，即需要action来触发结果的收集返回。</p>
+<p>同时，如果想要自定义不同类型的accumulator，可以通过传入accum_param来实现，accum_param可以通过继承AccumulatorParam来创建。AccumulatorParam里面需要定义2个方法：zero和addInPlace。前者用来定义0值类型，后者用来定义抽象“加”法的计算逻辑。</p>
+<pre><code class="language-python">accum = sc.accumulator(0)
+def f(x):
+    accum.add(x)
+    return x
+
+sc.parallelize([1,2,3,4],3).map(f)
+print(f&quot;1.仅进行transformer，accum={accum}&quot;)
+sc.parallelize([1,2,3,4],3).map(f).collect()
+print(f&quot;2.进行action，accum={accum}&quot;)
+
+</code></pre>
+<pre><code>1.仅进行transformer，accum=0
+2.进行action，accum=10
+</code></pre>
+<pre><code class="language-python">class vec_accumparam(AccumulatorParam):
+    def zero(self, v):
+        return [0]*len(v)
+
+    def addInPlace(self, v1, v2):
+        try: 
+            return [v1[i]+v2[i] for i in range(len(v1))]
+        except:
+            return [v1[i]+0 for i in range(len(v1))]
+
+accum_vec = sc.accumulator([1,2,3,4], vec_accumparam())
+accum_vec.add([2,2,2,2])
+accum_vec.value
+</code></pre>
+<pre><code>[3, 4, 5, 6]
+</code></pre>
+<pre><code class="language-python">class str_accumparam(AccumulatorParam):
+    def zero(self, v):
+        return &quot;&quot;
+
+    def addInPlace(self, v1, v2):
+        return v1+v2
+
+accum_str = sc.accumulator(&quot;a&quot;, str_accumparam())
+accum_str.add(&quot;b&quot;)
+accum_str.value
+</code></pre>
+<pre><code>'ab'
+</code></pre>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#rdd%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">RDD的基本概念</a>
+<ul>
+<li><a href="#%E5%88%9D%E5%A7%8B%E5%8C%96spark">初始化Spark</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BArdd">创建RDD</a></li>
+</ul>
+</li>
+<li><a href="#rdd%E7%9A%84%E6%93%8D%E4%BD%9C">RDD的操作</a>
+<ul>
+<li><a href="#transformation%E7%AE%97%E5%AD%90">transformation算子</a></li>
+<li><a href="#action%E7%AE%97%E5%AD%90">action算子</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%B1%E4%BA%AB%E5%8F%98%E9%87%8F">共享变量</a>
+<ul>
+<li><a href="#broadcast-variable">broadcast variable</a></li>
+<li><a href="#accumulator">accumulator</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                            <!--zh-->
+                                            <section class="post-copyright zh">
+                                                <p class="copyright-item ">
+                                                    <span>&#x4F5C;&#x8005;:</span>
+                                                    <span>Lost Blog</span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
+                                                    <span><a href="https://lostlau.github.io/post/pyspark_tuto2/">https://lostlau.github.io/post/pyspark_tuto2/</a></span>
+                                                </p>
+
+                                                <p class="copyright-item">
+                                                    <span>&#x534F;&#x8BAE;:</span>
+                                                    <span>MIT License</span>
+                                                </p>
+                                            </section>
+                                            
+                                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lostlau.github.io/post/pyspark_tuto2/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lostlau.github.io/post/pyspark_tuto2/&sharesource=qzone&title=PySpark学习（二） - RDD与共享变量&pics=https://lostlau.github.io/images/avatar.png?v=1753006403576&summary=&lt;p&gt;pyspark学习的第二篇会主要介绍RDD和相关的算子。&lt;/p&gt;
+"><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://lostlau.github.io/post/pyspark_tuto2/&sharesource=weibo&title=PySpark学习（二） - RDD与共享变量 + " - " + &lt;p&gt;pyspark学习的第二篇会主要介绍RDD和相关的算子。&lt;/p&gt;
+&pic="https://lostlau.github.io/images/avatar.png?v=1753006403576 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                        
+                        <a href="https://lostlau.github.io/tag/spark/">#
+                    Spark
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/infotech/">#
+                    IT
+                        </a>
+                        
+                        <a href="https://lostlau.github.io/tag/bigdata/">#
+                    大数据工程
+                        </a>
+                        
+                            
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://lostlau.github.io/post/pmp_intro/">
+                                                                                            PMP学习&amp;考试 - 引子
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://lostlau.github.io/post/pyspark_tuto1/">
+                                                                                                    PySpark学习（一） - 学习环境的配置
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                <br>
+                                                                                
+                                                                                                            
+                                                                                                                <script type="application/javascript" src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<div id="vlaine-comment"></div>
+<script type="application/javascript">
+    new Valine({
+        el: '#vlaine-comment',
+        appId: 'IDwm6MbiTzz7kIRCFR8CK7G4-9Nh9j0Va',
+        appKey: 'ghgXCbobWxBYTG3VWr1uTRpF',
+        pageSize: 10,
+        avatar: 'mp',
+        placeholder: '水平一般，能力有限，能回答的博主尽量回答:)',
+        visitor: true,
+        highlight: true,
+        recordIP: false,
+    })
+</script>
+                                                                                                                    
+                    </article>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        Created by <a href="https://github.com/lostlau/lostlau.github.io" target="_blank">Lostlau</a>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Lost Blog &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank">
+                                                Chic
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://fastly.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1753006403576);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>
